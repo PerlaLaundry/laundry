@@ -1,0 +1,11 @@
+$font-stack: "Montserrat", sans-serif;
+$primary-color: #71745f;
+$secondary-color: #a09f8b;
+$background-color: #d3d0c9;
+$font-color: #242424;
+
+@mixin center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
