@@ -1,19 +1,60 @@
 @use "styles/variables" as *;
 
+$size: 26rem;
+
 .homepage {
   @include center;
+  flex-direction: column;
   height: 100vh;
   background-color: $light-grey;
   color: $font-color;
-
-  .logo {
-    height: 6em;
-    padding: 1.5em;
-    will-change: filter;
-    transition: filter 300ms;
-  }
   
-  .logo:hover {
-    filter: drop-shadow(0 0 2em #646cffaa);
+  .logo {
+    width: $size;
+    height: $size;
+    position: relative;
+    background-color: white;
+    border-radius: 5%;
+
+    @keyframes rotating {
+      from {
+        -ms-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -webkit-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+        transform: rotate(0deg);
+      }
+      to {
+        -ms-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        -webkit-transform: rotate(360deg);
+        -o-transform: rotate(360deg);
+        transform: rotate(360deg);
+      }
+    }
+
+    .rotating {
+      -webkit-animation: rotating 2s linear infinite;
+      -moz-animation: rotating 2s linear infinite;
+      -ms-animation: rotating 2s linear infinite;
+      -o-animation: rotating 2s linear infinite;
+      animation: rotating 2s linear infinite;
+    }
+
+    .favico {
+      z-index: 2; // Ensure this is higher than the machine image
+      position: absolute; // Ensure z-index works
+      top: 7rem;
+      left: 6.5rem;
+      width: $size / 2;
+      height: $size / 2;
+    }
+    
+    .machine {
+      z-index: 1; // Lower than the favicon image
+      position: absolute; // Ensure z-index works
+      width: $size;
+      height: $size;
+    }
   }
 }
