@@ -1,6 +1,6 @@
 @use "styles/variables" as *;
 
-$size: 26rem;
+$size: 22rem;
 
 .homepage {
   @include center;
@@ -44,8 +44,8 @@ $size: 26rem;
     .favico {
       z-index: 2; // Ensure this is higher than the machine image
       position: absolute; // Ensure z-index works
-      top: 7rem;
-      left: 6.5rem;
+      top: 6rem;
+      left: 5.5rem;
       width: $size / 2;
       height: $size / 2;
     }
