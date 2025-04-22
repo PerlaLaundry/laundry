@@ -1,6 +1,9 @@
 import { useEffect } from "react";
 import { useTranslation } from "react-i18next";
 
+import machine from "./assets/machine.png";
+import brand from "./assets/brand.svg";
+import favico from "../favico.png";
 import i18n from "./utils/i18n";
 
 const App = () => {
@@ -18,7 +21,10 @@ const App = () => {
 
   return (
     <div className="homepage">
-      <div className='logo'>
+      <div className="brand">
+        <img src={brand} />
+      </div>
+      <div className="logo">
         <img className="machine" src={machine} alt="Machine" />
         <img className="favico rotating" src={favico} alt="Machine" />
       </div>
