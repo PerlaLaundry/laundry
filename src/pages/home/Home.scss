@@ -1,0 +1,23 @@
+@use "../../styles/variables" as *;
+@use "sass:math";
+
+.homepage {
+  background-color: $dark-olive;
+  color: $font-color;
+
+  .description,
+  .prices,
+  .location {
+    height: 45rem;
+  }
+
+  .prices {
+    display: flex;
+  }
+
+  .description,
+  .location {
+    display: flex;
+    background-color: $light-grey;
+  }
+}
