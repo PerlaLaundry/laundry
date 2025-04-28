@@ -1,11 +1,9 @@
-$font-stack: "Montserrat", sans-serif;
+@import url("https://fonts.googleapis.com/css?family=Poppins:400,700");
+
+$font-stack: Poppins, sans-serif;
 $dark-olive: #71745f; // Finch
 $cement: #a09f8b; // Dawn
-$light-grey: #d3d0c9; // Timberwolf
-$font-color: #242424;
+$light-grey: #d3d3d3; // Timberwolf
 
-@mixin center {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
+$font-color: #020202;
+$font-color-inverted: #fcfdf7;
