@@ -1,3 +1,68 @@
 {
-    "openingSoon": "Hamarosan nyitunk"
+    "lorem": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ultricies, lectus non interdum porta, leo odio facilisis orci, ac sodales eros sem vel odio. Nulla vel lectus a dui iaculis tristique.",
+    "loremLong": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ultricies, lectus non interdum porta, leo odio facilisis orci, ac sodales eros sem vel odio. Nulla vel lectus a dui iaculis tristique. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ultricies, lectus non interdum porta, leo odio facilisis orci, ac sodales eros sem vel odio. Nulla vel lectus a dui iaculis tristique.",
+    "navigation": {
+        "services": "Szolgáltatások",
+        "howToUse": "Használat",
+        "pricing": "Áraink",
+        "location": "Helyszín",
+        "aboutUs": "Rólunk"
+    },
+    "introduction": {
+        "welcome": "Üdv a Mosodába",
+        "description": "Mosás és szárítás 40 perc alatt - egyszerűen, önkiszolgáló módon."
+    },
+    "services": {
+        "title": "Elérhető szolgáltatásaink",
+        "description": "Hozd a ruháid, indítsd el a gépet, és 30-40 perc alatt végeztél is.",
+        "washing": {
+            "title": "Mosás",
+            "description": "Önkiszolgáló mosás, 40 perc alatt."
+        },
+        "drying": {
+            "title": "Szárítás",
+            "description": "Önkiszolgáló szárítás, 40"
+        }
+    },
+    "howToUse": {
+        "title": "Használati útmutató",
+        "description": "A mosószert és az öblítőt nyugodtan hagyd otthon. Mosógépeinkbe automatikusan adagolják a megfelelő mennyiségű mosószert és öblítőt, így más dolgot nincs csak követni a következő lépéseket:",
+        "footnote": "A mosási és szárítási folyamata 30 - 40 percet vesz igénybe, így akár egy órán belül is végezhetsz!",
+        "steps": {
+            "step1": {
+                "title": "1. Lépés",
+                "description": "Hozd el a ruháidat."
+            },
+            "step2": {
+                "title": "2. Lépés",
+                "description": "Töltsd meg a kiválasztott mosógépet a ruhákkal."
+            },
+            "step3": {
+                "title": "3. Lépés",
+                "description": "Válaszd ki a megfelelő programot."
+            },
+            "step4": {
+                "title": "4. Lépés",
+                "description": "Indítsd el a gépet."
+            },
+            "step5": {
+                "title": "5. Lépés",
+                "description": "Várj 30-40 percet."
+            },
+            "step6": {
+                "title": "6. Lépés",
+                "description": "Vedd ki a tiszta ruháidat."
+            },
+            "step7": {
+                "title": "7. Lépés (Opcionális)",
+                "description": "Ismételd meg a fentebbi lépéseket a szárítógépeinkkel is."
+            }
+        }
+    },
+    "footer": {
+        "support": "Információk",
+        "faq": "GY.I.K",
+        "rules": "Szabályzat",
+        "getInTouch": "Kapcsolat"
+    }
 }

@@ -1,3 +1,68 @@
 {
-    "openingSoon": "Opening soon"
+    "lorem": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ultricies, lectus non interdum porta, leo odio facilisis orci, ac sodales eros sem vel odio. Nulla vel lectus a dui iaculis tristique.",
+    "loremLong": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ultricies, lectus non interdum porta, leo odio facilisis orci, ac sodales eros sem vel odio. Nulla vel lectus a dui iaculis tristique. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ultricies, lectus non interdum porta, leo odio facilisis orci, ac sodales eros sem vel odio. Nulla vel lectus a dui iaculis tristique.",
+    "navigation": {
+        "services": "Services",
+        "pricing": "Pricing",
+        "howToUse": "Know how",
+        "aboutUs": "About us",
+        "location": "Location"
+    },
+    "introduction": {
+        "welcome": "Welcome to the Laundry",
+        "description": "Self-served, easy washing and drying under 40 minutes."
+    },
+    "services": {
+        "title": "Available services",
+        "description": "Bring your clothes, start the machine, and you're done in 30-40 minutes.",
+        "washing": {
+            "title": "Washing",
+            "description": "Self-served washing, under 40 minutes."
+        },
+        "drying": {
+            "title": "Drying",
+            "description": "Self-served drying, under 40 minutes."
+        }
+    },
+    "howToUse": {
+        "title": "How to use the machines",
+        "description": "You can leave the detergent and softener at home. Our washing machines automatically dispense the right amount of detergent and softener, so all you have to do is follow the following steps:",
+        "footnote": "Washing and drying process takes 30 - 40 minutes, so both can be done in under an hour!",
+        "steps": {
+            "step1": {
+                "title": "Step 1",
+                "description": "Bring your clothes."
+            },
+            "step2": {
+                "title": "Step 2",
+                "description": "Fill the selected washing machine with clothes."
+            },
+            "step3": {
+                "title": "Step 3",
+                "description": "Select the right program."
+            },
+            "step4": {
+                "title": "Step 4",
+                "description": "Start the machine."
+            },
+            "step5": {
+                "title": "Step 5",
+                "description": "Wait for 30-40 minutes."
+            },
+            "step6": {
+                "title": "Step 6",
+                "description": "Take out your clean clothes."
+            },
+            "step7": {
+                "title": "Step 7 (Optional)",
+                "description": "Repeat the above steps with our dryers."
+            }
+        }
+    },
+    "footer": {
+        "support": "Support",
+        "faq": "Common questions",
+        "rules": "Rules",
+        "getInTouch": "Get in touch"
+    }
 }
