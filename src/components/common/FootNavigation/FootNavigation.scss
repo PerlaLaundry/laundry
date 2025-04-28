@@ -1,0 +1,25 @@
+@use "../../../styles/variables" as *;
+
+.foot-navigation {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+  margin-left: 4rem;
+  margin-top: 0.5rem;
+
+  a {
+    text-decoration: none;
+    cursor: pointer;
+    color: $font-color
+  }
+
+  h4,
+  p {
+    margin: 0;
+  }
+
+  a,
+  p {
+    font-size: 0.85rem;
+  }
+}
