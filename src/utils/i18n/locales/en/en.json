@@ -3,31 +3,31 @@
     "loremLong": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ultricies, lectus non interdum porta, leo odio facilisis orci, ac sodales eros sem vel odio. Nulla vel lectus a dui iaculis tristique. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ultricies, lectus non interdum porta, leo odio facilisis orci, ac sodales eros sem vel odio. Nulla vel lectus a dui iaculis tristique.",
     "navigation": {
         "services": "Services",
-        "pricing": "Pricing",
         "howToUse": "Know how",
         "aboutUs": "About us",
         "location": "Location"
     },
     "introduction": {
         "welcome": "Welcome to the Laundry",
-        "description": "Self-served, easy washing and drying under 40 minutes."
+        "description": "Self-served, easy washing or drying under 40 minutes."
     },
     "services": {
         "title": "Available services",
-        "description": "Bring your clothes, start the machine, and you're done in 30-40 minutes.",
-        "washing": {
-            "title": "Washing",
-            "description": "Self-served washing, under 40 minutes."
+        "description1": "Modern machines, fast washing and drying in one place. Available without reservation.",
+        "description2": "Our washing and drying machines are available in two versions.",
+        "small": {
+            "title": "Small capacity",
+            "limit": "10 kg"
         },
-        "drying": {
-            "title": "Drying",
-            "description": "Self-served drying, under 40 minutes."
-        }
+        "big": {
+            "title": "Big capacity",
+            "limit": "14 kg"
+        },
+        "machineDescription": "Max weight"
     },
     "howToUse": {
         "title": "How to use the machines",
         "description": "You can leave the detergent and softener at home. Our washing machines automatically dispense the right amount of detergent and softener, so all you have to do is follow the following steps:",
-        "footnote": "Washing and drying process takes 30 - 40 minutes, so both can be done in under an hour!",
         "steps": {
             "step1": {
                 "title": "Step 1",
@@ -43,7 +43,7 @@
             },
             "step4": {
                 "title": "Step 4",
-                "description": "Start the machine."
+                "description": "Pay with cash or card and start the machine."
             },
             "step5": {
                 "title": "Step 5",
@@ -56,6 +56,49 @@
             "step7": {
                 "title": "Step 7 (Optional)",
                 "description": "Repeat the above steps with our dryers."
+            }
+        }
+    },
+    "aboutUs": {
+        "title": "About us",
+        "description": "Our goal is to provide a fast and convenient laundry experience for our customers. You don't need to book an appointment, just bring your clothes, start the machine, and take care of your things while the machine works for you! Comfortable parking, easy to use, clean results.",
+        "membership": "Membership program",
+        "membershipDescription": "Our membership plans will be available soon, allowing you to wash and dry at a discount. Inquire about the details on-site or through our contact information."
+    },
+    "location": {
+        "title": "You can find us here",
+        "contact": "Contact",
+        "address": "Address",
+        "description": "Pécs, Rákóczi út 3, 7621",
+        "openingHours": "Opening hours",
+        "days": {
+            "monday": {
+                "text": "Monday",
+                "open": "6:00AM - 10:00PM"
+            },
+            "tuesday": {
+                "text": "Tuesday",
+                "open": "6:00AM - 10:00PM"
+            },
+            "wednesday": {
+                "text": "Wednesday",
+                "open": "6:00AM - 10:00PM"
+            },
+            "thursday": {
+                "text": "Thursday",
+                "open": "6:00AM - 10:00PM"
+            },
+            "friday": {
+                "text": "Friday",
+                "open": "6:00AM - 10:00PM"
+            },
+            "saturday": {
+                "text": "Saturday",
+                "open": "6:00AM - 10:00PM"
+            },
+            "sunday": {
+                "text": "Sunday",
+                "open": "6:00AM - 10:00PM"
             }
         }
     },

@@ -48,9 +48,6 @@ const HowToUse = () => {
           <h2>{t("howToUse.title")}</h2>
           <p>{t("howToUse.description")}</p>
         </div>
-        <p>
-          <b>{t("howToUse.footnote")}</b>
-        </p>
       </div>
       <ul>
         {steps.map((step, index) => (
