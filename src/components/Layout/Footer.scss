@@ -44,3 +44,37 @@ footer {
         display: flex;
     }
 }
+
+@media (max-width: $breakpoint-desktop) {
+    // .footer {
+    //   background-color: blue;
+    // }
+}
+
+@media (max-width: $breakpoint-tablet) {
+    .footer {
+        height: 14rem;
+        flex-direction: column-reverse;
+        gap: 1rem;
+
+        .container {
+            display: flex;
+            flex-direction: column-reverse;
+            align-items: center;
+            margin: 0;
+            height: 2rem;
+            width: 100%;
+
+            > svg {
+                visibility: hidden;
+                height: 0;
+            }
+        }
+
+        .more-info {
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+        }
+    }
+}

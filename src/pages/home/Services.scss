@@ -24,21 +24,17 @@
     margin-top: 2rem;
     gap: 5rem;
   }
-
-  .description {
-    width: 70%;
-  }
-
+  
   .service-tile {
-    transition: all .2s ease-in-out;
     display: flex;
     flex-direction: column;
-    align-items: start;
     justify-content: start;
+    align-items: start;
     background-color: $light-grey;
     width: 15rem;
     border-radius: 1rem;
     overflow: hidden;
+    transition: all .2s ease-in-out;
 
     img {
       width: 100%;
@@ -58,6 +54,7 @@
       .title {
         margin: 1rem 0.9rem 1rem;
         font-size: 1.25rem;
+        // text-align: center; TODO #2
       }
 
       .description {
@@ -85,5 +82,26 @@
   .service-tile:hover {
     transform: scale(1.05);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+}
+
+@media (max-width: $breakpoint-desktop) {
+  // .services {
+  //   background-color: blue;
+  // }
+}
+
+@media (max-width: $breakpoint-tablet) {
+  .services {
+    height: 34rem;
+
+    .tiles {
+      justify-content: space-around;
+      gap: 1.5rem;
+
+      .info .title {
+        font-size: 1.2rem;
+      }
+    }
   }
 }
