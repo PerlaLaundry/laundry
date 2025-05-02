@@ -3,8 +3,8 @@ import { useNavigate } from "react-router-dom";
 
 import i18n from "../../utils/i18n";
 import Brand from "../../assets/brand.svg?react";
-import hun from "../../assets/hun.png";
-import eng from "../../assets/eng.png";
+import hun from "../../assets/language/hun.png";
+import eng from "../../assets/language/eng.png";
 
 const Navigation = () => {
   const { t } = useTranslation();
@@ -25,11 +25,6 @@ const Navigation = () => {
       id: "howToUse",
       scrollTo: "howToUse-section",
       text: t("navigation.howToUse"),
-    },
-    {
-      id: "pricing",
-      scrollTo: "pricing-section",
-      text: t("navigation.pricing"),
     },
     {
       id: "aboutUs",
@@ -65,6 +60,7 @@ const Navigation = () => {
       <div className="language-switcher">
         {languages.map((lang) => (
           <img
+            key={lang.code}
             src={lang.src}
             alt={lang.code}
             onClick={() => {
