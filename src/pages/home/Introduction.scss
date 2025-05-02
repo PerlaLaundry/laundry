@@ -1,7 +1,10 @@
 @use "../../styles/variables" as *;
 
+$height-intro: 30rem;
+
 .introduction {
   display: flex;
+  height: $height-intro;
 
   .content {
     display: flex;
@@ -26,6 +29,34 @@
   }
 
   img {
+    height: $height-intro;
+    width: 40%;
+  }
+}
+
+@media (max-width: $breakpoint-desktop) {
+  // .introduction {
+  //   background-color: blue;
+  // }
+}
+
+@media (max-width: $breakpoint-tablet) {
+  .introduction {
+    flex-direction: column;
     height: 35rem;
+
+    img {
+      height: 20rem;
+      width: 100%;
+    }
+
+    .content {
+      width: 100%;
+      padding: 0;
+
+      p {
+        margin: 1rem;
+      }
+    }
   }
 }
