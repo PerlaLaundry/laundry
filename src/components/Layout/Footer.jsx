@@ -1,6 +1,8 @@
 import { useTranslation } from "react-i18next";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faFacebook, faInstagram } from "@fortawesome/free-brands-svg-icons";
+import {
+  faFacebook /* faInstagram */,
+} from "@fortawesome/free-brands-svg-icons";
 
 import Brand from "../../assets/brand.svg?react";
 import FootNavigation from "../common/FootNavigation/FootNavigation";
@@ -14,12 +16,16 @@ const Footer = () => {
       <div className="container">
         <Brand />
         <div className="social-media">
-          <a href="https://www.facebook.com/perlaki.levente">
+          <a
+            href="https://www.facebook.com/profile.php?id=61571791765706"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <FontAwesomeIcon icon={faFacebook} />
           </a>
-          <a href="https://www.instagram.com/perlakilevente">
+          {/* <a href="https://www.instagram.com/perlakilevente">
             <FontAwesomeIcon icon={faInstagram} />
-          </a>
+          </a> */}
         </div>
       </div>
       <div className="more-info">
