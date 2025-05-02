@@ -13,6 +13,7 @@
   h2 {
     font-size: 2rem;
     margin: 0;
+    margin-bottom: 1rem;
   }
 
   .tiles {
@@ -21,44 +22,68 @@
     justify-content: center;
     width: 100%;
     margin-top: 2rem;
-    gap: 7rem;
+    gap: 5rem;
+  }
 
-    .service-tile {
-      transition: all .2s ease-in-out;
+  .description {
+    width: 70%;
+  }
+
+  .service-tile {
+    transition: all .2s ease-in-out;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    background-color: $light-grey;
+    width: 15rem;
+    border-radius: 1rem;
+    overflow: hidden;
+
+    img {
+      width: 100%;
+      height: 10rem;
+    }
+
+    .info {
       display: flex;
       flex-direction: column;
-      align-items: start;
-      justify-content: start;
-      background-color: $light-grey;
-      height: 17rem;
-      width: 13.5rem;
-      border-radius: 1rem;
-      overflow: hidden;
+      justify-content: space-between;
+      width: 100%;
 
-      .description {
+      p {
         margin: 0;
-        font-size: 0.9rem;
       }
 
       .title {
-        margin: 1rem 0 0.5rem;
+        margin: 1rem 0.9rem 1rem;
         font-size: 1.25rem;
       }
 
-      .description,
-      .title {
-        padding: 0 1rem;
-      }
-  
-      img {
-        width: 100%;
-        height: 8.5rem;
-      }
-    }
+      .description {
+        display: flex;
+        justify-content: space-between;
+        padding: 0 1rem; 
+        font-size: 0.9rem;
+        width: 85%;
 
-    .service-tile:hover {
-      transform: scale(1.05);
-      box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        .limit {
+          font-size: 1rem;
+          font-weight: 700;
+        }
+      }
+
+      .price {
+        margin: 1.5rem 0 0.5rem;
+        text-align: center;
+        font-size: 1.2rem;
+        font-weight: 700;
+      }
     }
+  }
+
+  .service-tile:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   }
 }

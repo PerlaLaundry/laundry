@@ -1,33 +1,31 @@
 {
-    "lorem": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ultricies, lectus non interdum porta, leo odio facilisis orci, ac sodales eros sem vel odio. Nulla vel lectus a dui iaculis tristique.",
-    "loremLong": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ultricies, lectus non interdum porta, leo odio facilisis orci, ac sodales eros sem vel odio. Nulla vel lectus a dui iaculis tristique. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ultricies, lectus non interdum porta, leo odio facilisis orci, ac sodales eros sem vel odio. Nulla vel lectus a dui iaculis tristique.",
     "navigation": {
         "services": "Szolgáltatások",
         "howToUse": "Használat",
-        "pricing": "Áraink",
-        "location": "Helyszín",
-        "aboutUs": "Rólunk"
+        "aboutUs": "Rólunk",
+        "location": "Helyszín"
     },
     "introduction": {
-        "welcome": "Üdv a Mosodába",
-        "description": "Mosás és szárítás 40 perc alatt - egyszerűen, önkiszolgáló módon."
+        "welcome": "Üdv a Mosodában",
+        "description": "Mosás vagy szárítás 40 perc alatt - egyszerűen, önkiszolgáló módon."
     },
     "services": {
         "title": "Elérhető szolgáltatásaink",
-        "description": "Hozd a ruháid, indítsd el a gépet, és 30-40 perc alatt végeztél is.",
-        "washing": {
-            "title": "Mosás",
-            "description": "Önkiszolgáló mosás, 40 perc alatt."
+        "description1": "Modern gépek, gyors mosás és szárítás egy helyen. Foglalás nélkül, bármikor használható!",
+        "description2": "Mosó- és szárítógépeink két változatban érhetők el.",
+        "small": {
+            "title": "Kis kapacitású",
+            "limit": "10 kg"
         },
-        "drying": {
-            "title": "Szárítás",
-            "description": "Önkiszolgáló szárítás, 40"
-        }
+        "big": {
+            "title": "Nagy kapacitású",
+            "limit": "14 kg"
+        },
+        "machineDescription": "Ruhamennyiség"
     },
     "howToUse": {
         "title": "Használati útmutató",
         "description": "A mosószert és az öblítőt nyugodtan hagyd otthon. Mosógépeinkbe automatikusan adagolják a megfelelő mennyiségű mosószert és öblítőt, így más dolgot nincs csak követni a következő lépéseket:",
-        "footnote": "A mosási és szárítási folyamata 30 - 40 percet vesz igénybe, így akár egy órán belül is végezhetsz!",
         "steps": {
             "step1": {
                 "title": "1. Lépés",
@@ -43,7 +41,7 @@
             },
             "step4": {
                 "title": "4. Lépés",
-                "description": "Indítsd el a gépet."
+                "description": "Fizess készpénzzel vagy bankkártyával majd indítsd el a gépet."
             },
             "step5": {
                 "title": "5. Lépés",
@@ -56,6 +54,49 @@
             "step7": {
                 "title": "7. Lépés (Opcionális)",
                 "description": "Ismételd meg a fentebbi lépéseket a szárítógépeinkkel is."
+            }
+        }
+    },
+    "aboutUs": {
+        "title": "Rólunk",
+        "description": "Nincs szükség időpontfoglalásra, hozd a ruháidat, indítsd el a gépet, és intézd a dolgaidat, amíg a gép dolgozik helyetted! Kényelmes parkolás, egyszerű használat, tiszta eredmény.",
+        "membership": "Bérleteink",
+        "membershipDescription": "Hamarosan elérhetőek lesznek bérleteink, amivel kedvezményesen moshatsz és száríthatsz. Érdeklődj a részletekről a helyszínen vagy az elérhetőségeinken."
+    },
+    "location": {
+        "title": "Itt találsz meg minket",
+        "contact": "Elérhetőség",
+        "address": "Cím",
+        "description": "Pécs, Rákóczi út 3, 7621",
+        "openingHours": "Nyitvatartás",
+        "days": {
+            "monday": {
+                "text": "Hétfő",
+                "open": "6:00 - 22:00"
+            },
+            "tuesday": {
+                "text": "Kedd",
+                "open": "6:00 - 22:00"
+            },
+            "wednesday": {
+                "text": "Szerda",
+                "open": "6:00 - 22:00"
+            },
+            "thursday": {
+                "text": "Csütörtök",
+                "open": "6:00 - 22:00"
+            },
+            "friday": {
+                "text": "Péntek",
+                "open": "6:00 - 22:00"
+            },
+            "saturday": {
+                "text": "Szombat",
+                "open": "6:00 - 22:00"
+            },
+            "sunday": {
+                "text": "Vasárnap",
+                "open": "6:00 - 22:00"
             }
         }
     },

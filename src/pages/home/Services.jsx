@@ -1,13 +1,22 @@
 import { useTranslation } from "react-i18next";
 
-import washing from "../../assets/washing.png";
+import small from "../../assets/small.png";
+import big from "../../assets/big.png";
 
-const ServiceTile = ({ icon, title, description }) => {
+const ServiceTile = ({ tile }) => {
+  const { icon, title, machineDescription, limit, price } = tile;
+
   return (
     <div className="service-tile">
       <img src={icon} alt={title} />
-      <p className="title">{title}</p>
-      <p className="description">{description}</p>
+      <div className="info">
+        <p className="title">{title}</p>
+        <div className="description">
+          <span>{machineDescription}: </span>
+          <span className="limit">{limit}</span>
+        </div>
+        <p className="price">{price}</p>
+      </div>
     </div>
   );
 };
@@ -18,30 +27,30 @@ const Services = () => {
   const tiles = [
     {
       id: "washing",
-      icon: washing,
-      title: t("services.washing.title"),
-      description: t("services.washing.description"),
+      icon: small,
+      title: t("services.small.title"),
+      machineDescription: t("services.machineDescription"),
+      limit: t("services.small.limit"),
+      price: "2000 Ft",
     },
     {
       id: "drying",
-      icon: washing,
-      title: t("services.drying.title"),
-      description: t("services.drying.description"),
+      icon: big,
+      title: t("services.big.title"),
+      machineDescription: t("services.machineDescription"),
+      limit: t("services.big.limit"),
+      price: "2300 Ft",
     },
   ];
 
   return (
     <section id="services-section" className="services">
       <h2>{t("services.title")}</h2>
-      <p>{t("services.description")}</p>
+      <span>{t("services.description1")}</span>
+      <span>{t("services.description2")}</span>
       <div className="tiles">
         {tiles.map((tile) => (
-          <ServiceTile
-            key={tile.id}
-            icon={tile.icon}
-            title={tile.title}
-            description={tile.description}
-          />
+          <ServiceTile key={tile.id} tile={tile} />
         ))}
       </div>
     </section>
