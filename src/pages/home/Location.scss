@@ -69,7 +69,8 @@
 @media (max-width: $breakpoint-tablet) {
   .location {
     flex-direction: column;
-    height: 55rem;
+    justify-content: start;
+    height: 53rem;
     padding: 0;
 
     .location-info {
