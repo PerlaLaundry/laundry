@@ -4,7 +4,9 @@ import small from "../../assets/small.png";
 import big from "../../assets/big.png";
 
 const ServiceTile = ({ tile }) => {
-  const { icon, title, machineDescription, limit, price } = tile;
+  const { t } = useTranslation();
+
+  const { icon, title, capacity, limit, moreInformation } = tile;
 
   return (
     <div className="service-tile">
@@ -12,10 +14,20 @@ const ServiceTile = ({ tile }) => {
       <div className="info">
         <p className="title">{title}</p>
         <div className="description">
-          <span>{machineDescription}: </span>
+          <div>{capacity}: </div>
           <span className="limit">{limit}</span>
         </div>
-        <p className="price">{price}</p>
+        <div className="description">
+          <div>{t("services.moreInformation")}: </div>
+          <a
+            className="limit"
+            href={moreInformation}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            {t("services.clickHere")}
+          </a>
+        </div>
       </div>
     </div>
   );
@@ -28,18 +40,20 @@ const Services = () => {
     {
       id: "washing",
       icon: small,
-      title: t("services.small.title"),
-      machineDescription: t("services.machineDescription"),
-      limit: t("services.small.limit"),
-      price: "2000 Ft",
+      title: t("services.washer"),
+      capacity: t("services.capacity"),
+      limit: "10kg, 14kg",
+      moreInformation:
+        "https://lgprolaundry.com/laundry-products/commercial-washers/lg-giant-c-max/",
     },
     {
       id: "drying",
       icon: big,
-      title: t("services.big.title"),
-      machineDescription: t("services.machineDescription"),
-      limit: t("services.big.limit"),
-      price: "2300 Ft",
+      title: t("services.dryer"),
+      capacity: t("services.capacity"),
+      limit: "10kg, 14kg",
+      moreInformation:
+        "https://lgprolaundry.com/laundry-products/commercial-dryers/lg-titan-c-light/",
     },
   ];
 

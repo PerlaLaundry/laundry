@@ -1,6 +1,4 @@
 {
-    "lorem": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ultricies, lectus non interdum porta, leo odio facilisis orci, ac sodales eros sem vel odio. Nulla vel lectus a dui iaculis tristique.",
-    "loremLong": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ultricies, lectus non interdum porta, leo odio facilisis orci, ac sodales eros sem vel odio. Nulla vel lectus a dui iaculis tristique. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ultricies, lectus non interdum porta, leo odio facilisis orci, ac sodales eros sem vel odio. Nulla vel lectus a dui iaculis tristique.",
     "navigation": {
         "services": "Services",
         "howToUse": "Know how",
@@ -9,21 +7,18 @@
     },
     "introduction": {
         "welcome": "Welcome to the Laundry",
-        "description": "Self-served, easy washing or drying under 40 minutes."
+        "description": "Self-served, easy washing or drying under 40 minutes.",
+        "video": "Without reservation - come whenever you like!"
     },
     "services": {
         "title": "Available services",
-        "description1": "Modern machines, fast washing and drying in one place. Available without reservation.",
+        "description1": "Modern machines, fast washing and drying in one place.",
         "description2": "Our washing and drying machines are available in two versions.",
-        "small": {
-            "title": "Small capacity",
-            "limit": "10 kg"
-        },
-        "big": {
-            "title": "Big capacity",
-            "limit": "14 kg"
-        },
-        "machineDescription": "Max weight"
+        "washer": "Washers",
+        "dryer": "Dryers",
+        "capacity": "Capacity",
+        "moreInformation": "More information",
+        "clickHere": "Manufacturer page"
     },
     "howToUse": {
         "title": "How to use our machines",
@@ -139,7 +134,6 @@
             }
         }
     },
-
     "instructions": {
         "description": "Check which machine is free",
         "steps": {
