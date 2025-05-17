@@ -92,6 +92,51 @@
             }
         }
     },
+    "faq": {
+        "title": "Gyakran Ismételt Kérdések",
+        "questions": {
+            "1": {
+                "question": "Hol található a Perla Laundry?",
+                "answer": "A mosoda a Porta Pátria lakóház földszintjén található, könnyen elérhető a környéken élők számára."
+            },
+            "2": {
+                "question": "Van parkolási lehetőség?",
+                "answer": "Igen, közvetlenül a mosoda mellett egy nagyobb fizetős parkoló áll rendelkezésre."
+            },
+            "3": {
+                "question": "Mikor van nyitva a Perla Laundry?",
+                "answer": "Nyitvatartás: minden nap 6:00 - 22:00. A gépek zárás előtt legkésőbb 21:00-ig indíthatók el."
+            },
+            "4": {
+                "question": "Hogyan működik a mosoda?",
+                "answer": "A Perla Laundry önkiszolgáló rendszerben működik. A gépek egy érintőképernyős fizetőfelületen keresztül indíthatók, nincs szükség regisztrációra vagy applikációra."
+            },
+            "5": {
+                "question": "Milyen hőfokon és meddig mosnak az egyes programok?",
+                "answer": "A mosás időtartama a választott hőmérséklettől függ. Hidegvízben 35 perc, 40 °C-on 39 perc, 60 °C-on 43 perc, 75 °C-on 58 perc és 90 °C-on pedig 73 perc. A szárítási idő 40 perc."
+            },
+            "6": {
+                "question": "Mennyibe kerül egy mosás vagy szárítás?",
+                "answer": "10 kg kapacitású gépek esetén 2.000 Ft, 14 kg kapacitású gépek esetén pedig 2.300 Ft mind a mosás, mind a szárítás."
+            },
+            "7": {
+                "question": "Kell hoznom saját mosószert?",
+                "answer": "Nem kell. A gépek automatikusan adagolják a prémium minőségű mosószert, így neked ezzel nem kell foglalkoznod."
+            },
+            "8": {
+                "question": "Milyen gépek állnak rendelkezésre?",
+                "answer": "2 db 10 kg-os mosógép, 1 db 14 kg-os mosógép, 2 db 10 kg-os szárítógép és 1 db 14 kg-os szárítógép áll rendelkezésre."
+            },
+            "9": {
+                "question": "Milyen fizetési lehetőségek vannak?",
+                "answer": "A fizetőfelületen bankkártyás és készpénzes fizetés is elérhető."
+            },
+            "10": {
+                "question": "Van személyzet a helyszínen?",
+                "answer": "A Perla Laundry önkiszolgáló, személyzet nem tartózkodik a helyszínen. Kérdés vagy probléma esetén telefonos ügyfélszolgálat áll rendelkezésre."
+            }
+        }
+    },
     "footer": {
         "support": "Információk",
         "faq": "GY.I.K",

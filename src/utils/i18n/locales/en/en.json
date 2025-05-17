@@ -94,6 +94,51 @@
             }
         }
     },
+    "faq": {
+        "title": "Frequently asked questions",
+        "questions": {
+            "1": {
+                "question": "Where can I find Perla Laundry?",
+                "answer": "The laundry is located on the ground floor of Porta Pátria, easily accessible for local residents."
+            },
+            "2": {
+                "question": "Is there parking lot available nearby?",
+                "answer": "Yes, there is a large paid parking lot available right next to the laundry."
+            },
+            "3": {
+                "question": "What are the opening hours?",
+                "answer": "Every day from 6:00 AM to 10:00 PM. Machines can be started until 9:00 PM at the latest."
+            },
+            "4": {
+                "question": "How does the laundry work?",
+                "answer": "Perla Laundry operates in a self-service system. The machines can be started through a touchscreen payment interface, no registration or app is needed."
+            },
+            "5": {
+                "question": "How long does each cycle take and what temperature does it use?",
+                "answer": "It depends on the temperature of the cycle. For washing cold water takes up 35 minutes, 40 °C 39 minutes, 60 °C 43 minutes, 75 °C 58 minutes and 90 °C takes 73 minutes. Drying cycle 40 minutes."
+            },
+            "6": {
+                "question": "How much does a washing or drying cost?",
+                "answer": "For 10 kg capacity machines, the cost is 2,000 HUF, and for 14 kg capacity machines, it is 2,300 HUF for both washing and drying."
+            },
+            "7": {
+                "question": "Do I need to bring my own detergent?",
+                "answer": "No, you don't need to. The machines automatically dispense premium quality detergent, so you don't have to worry about that."
+            },
+            "8": {
+                "question": "What machines are available?",
+                "answer": "There are 2 washing machines with 10 kg capacity, 1 washing machine with 14 kg capacity, 2 dryers with 10 kg capacity, and 1 dryer with 14 kg capacity available."
+               },
+            "9": {
+                "question": "What payment options are available?",
+                "answer": "The payment interface supports both card or cash payments."
+            },
+            "10": {
+                "question": "Is there a staff on-site?",
+                "answer": "Perla Laundry is self-service, and there is no staff on-site. For questions or issues, a phone customer service is available."
+            }
+        }
+    },
     "footer": {
         "support": "Support",
         "faq": "FAQ",
