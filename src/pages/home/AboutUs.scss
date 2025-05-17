@@ -41,16 +41,16 @@ $height: 32rem;
   }
 }
 
-@media (max-width: $breakpoint-desktop) {
-  // .about-us {
-  //   background-color: blue;
-  // }
-}
+// @media (max-width: $breakpoint-desktop) {
+//   .about-us {
+//     background-color: blue;
+//   }
+// }
 
 @media (max-width: $breakpoint-tablet) {
   .about-us {
     flex-direction: column;
-    height: 62rem;
+    height: 55rem;
 
     img {
       height: 20rem;

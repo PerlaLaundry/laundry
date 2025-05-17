@@ -23,3 +23,10 @@
     font-size: 0.85rem;
   }
 }
+
+@media (max-width: $breakpoint-tablet) {
+  .foot-navigation {
+    margin: 0;
+    text-align: center;
+  }
+}
