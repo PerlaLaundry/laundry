@@ -184,6 +184,37 @@
         "footer": "Ezután van minimum 35 perce, igyon egy finom kávét vagy egyen valamit az első emeleten található bisztróban.",
         "emegency": "Probléma esetén, hívja a +36 20 263 7000 -es számot!"
     },
+    "terms": {
+        "title": "Szabályzat",
+        "rules": {
+            "tips": {
+                "text": "Használati tanácsok",
+                "1": "Mielőtt bepakolná a ruhákat, győződjön meg róla, hogy a dob teljesen üres.",
+                "2": "Ellenőrizze a ruhadarabokat, hogy ne maradjon bennük idegen tárgy (pl. kő, aprópénz, kulcs stb.).",
+                "3": "Mindig tartsa be a ruhák címkéjén található kezelési útmutatót.",
+                "4": "Kérjük, ne nyomkodja feleslegesen a gombokat, és a program elindítása után már ne adjon hozzá mosószert.",
+                "5": "A ruhák betöltése előtt rázza ki azokat, hogy a por és a szennyeződések eltávozzanak.",
+                "6": "A program befejezése után minél előbb vegye ki a ruhákat a gépből.",
+                "7": "Ne terhelje túl a gépet - hagyjon elegendő mozgásteret a ruháknak."
+            },
+            "use": {
+                "text": "Perla laundry - használati feltételek",
+                "1": "A mosandó tételeket nézze át, a zsebeket ürítse ki, a cipzárakat húzza be, csatokat kapcsolja össze!",
+                "2": "Csak normál ruhadarabokat és egyéb általános háztartási textíliát (pl. törölközők, lepedők stb.) mosson - a tiltott anyagokat lásd lent!",
+                "3": "Ne helyezzen a gépbe fémet, merev műanyagot, vízhatlan terméket (pl. sátrat, ponyvát)!",
+                "4": "Ne tegyen a gépbe gumit, gumi- vagy habszivacs anyagot, festékes ruhát, oldószerrel vagy benzin alapú hígítóval kezelt ruhadarabot!",
+                "5": "Tűzveszélyes, gyúlékony vagy robbanékony anyaggal szennyezett ruhát TILOS betenni!",
+                "6": "A gép nem játék! Ne engedje, hogy gyermek bemásszon vagy a géppel játsszon!",
+                "7": "A program elindítása után ne nyomogassa a gombokat, ne próbálja meg kinyitni az ajtót a program vége előtt!",
+                "8": "A mosóprogram nem állítható le!"
+            },
+            "notice": {
+                "text": "Fontos figyelmeztetés",
+                "1": "TILOS szőnyeget, gumírozott aljú textilt, állatszőrös textíliát, vagy sérült huzatú töltött anyagot (pl. takarót, párnát, kabátot) a gépbe helyezni!",
+                "2": "A hatékony mosás és szárítás érdekében NE tömjék tele a gépeket - csak a dob felső harmadáig pakoljanak ruhát vagy textíliát!"
+            }
+        }
+    },
     "footer": {
         "support": "Információk",
         "faq": "GY.I.K",

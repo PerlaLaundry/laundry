@@ -187,6 +187,37 @@
         "footer": "You now have at least 35 minutes - grab a nice coffee or have something to eat at the bistro on the first floor.",
         "emegency": "In case of emergency, call +36202637000"
     },
+    "terms": {
+        "title": "Terms",
+        "rules": {
+            "tips": {
+                "text": "Usage Tips",
+                "1": "Before loading, always check that the drum is completely empty.",
+                "2": "Carefully inspect the clothes to ensure there are no foreign objects (e.g. stones, coins, keys).",
+                "3": "Always follow the care instructions found on the garment labels.",
+                "4": "Please avoid pressing buttons unnecessarily, and do not add detergent after the cycle has started.",
+                "5": "Shake out clothes before loading to help remove dust and dirt.",
+                "6": "Once the cycle is complete, remove the clothes promptly",
+                "7": "Do not overload the machine - make sure the clothes have enough space to move freely."
+            },
+            "use": {
+                "text": "Perla laundry - Terms of use",
+                "1": "Carefully check laundry items, empty all pockets, close zippers, fasten all clips!",
+                "2": "Only wash regular clothing and other general household textiles (e.g., towels, bedsheets, etc.) - see prohibited items below!",
+                "3": "Do not put any metal objects, rigid plastic, or waterproofed items (e.g., tents, tarpaulins) into the machine.",
+                "4": "Do not insert rubber, sponge-like material, painted fabrics, or items treated with solvent or petrol-based thinner!",
+                "5": "Do not put clothes contaminated with flammable, combustible, or explosive substances into the machine!",
+                "6": "The laundry is not a playground. Do not allow children to climb into or play with it.",
+                "7": "Once the cycle has started, do not press any buttons or attempt to open the door until the cycle ends.",
+                "8": "The washing cycle cannot be stopped once started."
+            },
+            "notice": {
+                "text": "Important notice",
+                "1": "Do not place carpets, rubber-backed textiles, items covered in pet hair, or filled textiles with damaged covers (e.g., blankets, pillows, jackets) into the machines!",
+                "2": "For effective washing and drying, DO NOT overload the machines - fill only up to the top third of the drum"
+            }
+        }
+    },
     "footer": {
         "support": "Support",
         "faq": "FAQ",
