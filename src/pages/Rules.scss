@@ -1,0 +1,39 @@
+@use "../styles/variables" as *;
+
+.terms {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  h2 {
+    margin-top: 8rem;
+    text-align: center;
+  }
+
+  .content {
+    margin: 1rem;
+    width: 50%;
+  }
+}
+
+// @media (max-width: $breakpoint-desktop) {
+//   .terms {
+//     background-color: blue;
+//   }
+// }
+
+@media (max-width: $breakpoint-tablet) {
+  .terms {
+    h2 {
+      margin-top: 3rem;
+    }
+
+    .content {
+      width: 100%;
+    }
+
+    ul li p {
+      margin-right: 1rem;
+    }
+  }
+}

@@ -5,7 +5,7 @@
   justify-content: space-between;
   background-color: $light-grey;
   color: $font-color;
-  height: 36.5rem;
+  height: 26.5rem;
 
   .content {
     display: flex;
@@ -36,17 +36,17 @@
   }
 }
 
-@media (max-width: $breakpoint-desktop) {
-  // .howToUse {
-  //   background-color: blue;
-  // }
-}
+// @media (max-width: $breakpoint-desktop) {
+//   .howToUse {
+//     background-color: blue;
+//   }
+// }
 
 @media (max-width: $breakpoint-tablet) {
   .howToUse {
     flex-direction: column;
     justify-content: start;
-    height: 53rem;
+    height: 45rem;
 
     .content {
       width: 100%;

@@ -10,7 +10,32 @@ import FootNavigation from "../common/FootNavigation/FootNavigation";
 const Footer = () => {
   const { t } = useTranslation();
 
-  // TODO: Add final Instagram and Facebook page
+  const supportLinks = [
+    {
+      id: "faq",
+      text: t("footer.faq"),
+      path: "./gyakran-ismetelt-kerdesek",
+    },
+    {
+      id: "instructions",
+      text: t("footer.instructions"),
+      path: "./utmutato",
+    },
+    {
+      id: "rules",
+      text: t("footer.terms"),
+      path: "./szabalyzat",
+    },
+  ];
+
+  const contactLink = [
+    {
+      id: "contact",
+      text: "perla.laundry.pecs@gmail.com",
+    },
+  ];
+
+  // TODO: Add final Instagram page
   return (
     <footer className="footer">
       <div className="container">
@@ -29,30 +54,8 @@ const Footer = () => {
         </div>
       </div>
       <div className="more-info">
-        <FootNavigation
-          title={t("footer.support")}
-          links={[
-            {
-              id: "faq",
-              text: t("footer.faq"),
-              path: "./gyakran-ismetelt-kerdesek",
-            },
-            {
-              id: "rules",
-              text: t("footer.rules"),
-              path: "./szabalyzat",
-            },
-          ]}
-        />
-        <FootNavigation
-          title={t("footer.getInTouch")}
-          links={[
-            {
-              id: "contact",
-              text: "perla.laundry.pecs@gmail.com",
-            },
-          ]}
-        />
+        <FootNavigation title={t("footer.support")} links={supportLinks} />
+        <FootNavigation title={t("footer.contact")} links={contactLink} />
       </div>
     </footer>
   );

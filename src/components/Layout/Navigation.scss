@@ -84,12 +84,12 @@
   }
 }
 
-@media (max-width: $breakpoint-desktop) {
-  .navigation {
-    height: 8rem;
-    position: inherit;
-  }
-}
+// @media (max-width: $breakpoint-desktop) {
+//   .navigation {
+//     height: 8rem;
+//     position: inherit;
+//   }
+// }
 
 @media (max-width: $breakpoint-tablet) {
   .navigation {
@@ -102,6 +102,10 @@
     .container {
       flex-direction: column;
 
+      div {
+        margin: 0;
+      }
+
       p {
         margin: 0;
         padding: 0.5rem 0;
@@ -111,6 +115,7 @@
     .language-switcher {
       height: 3rem;
       align-items: center;
+      margin-right: 0;
     }
   }
 }

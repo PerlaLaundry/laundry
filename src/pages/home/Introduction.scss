@@ -34,15 +34,16 @@ $height-intro: 30rem;
   }
 }
 
-@media (max-width: $breakpoint-desktop) {
-  // .introduction {
-  //   background-color: blue;
-  // }
-}
+// @media (max-width: $breakpoint-desktop) {
+//   .introduction {
+//     background-color: blue;
+//   }
+// }
 
 @media (max-width: $breakpoint-tablet) {
   .introduction {
     flex-direction: column;
+    justify-content: space-between;
     height: 35rem;
 
     img {

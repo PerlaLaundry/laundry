@@ -1,0 +1,70 @@
+@use "../styles/variables" as *;
+
+.instructions {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+
+  > div {
+    width: 60%;
+  }
+
+  h2 {
+    margin-top: 8rem;
+    text-align: center;
+  }
+
+  &__steps {
+    width: 100%;
+
+    ul {
+      width: 60%;
+
+      li {
+        padding-left: 1rem;
+      }
+    }
+
+    h4 {
+      width: 70%;
+    }
+  }
+
+  .content > h4 {
+    text-align: center;
+  }
+}
+
+// @media (max-width: $breakpoint-desktop) {
+//   .instructions {
+//     background-color: blue;
+//   }
+// }
+
+@media (max-width: $breakpoint-tablet) {
+  .instructions {
+    h2 {
+      margin-top: 3rem;
+    }
+
+    > div {
+      width: 100%;
+    }
+
+    &__steps {
+      h4 {
+        margin: 1rem;
+        margin-bottom: 0;
+      }
+    }
+
+    h4 {
+      margin: 2rem 1rem 1rem;
+    }
+
+    ul {
+      margin: 0;
+    }
+  }
+}

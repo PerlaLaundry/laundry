@@ -21,47 +21,39 @@
             "title": "Nagy kapacitású",
             "limit": "14 kg"
         },
-        "machineDescription": "Ruhamennyiség"
+        "machineDescription": "Mennyiség"
     },
     "howToUse": {
         "title": "Használati útmutató",
         "description": "A mosószert és az öblítőt nyugodtan hagyd otthon. Mosógépeinkbe automatikusan adagolják a megfelelő mennyiségű mosószert és öblítőt, így más dolgot nincs csak követni a következő lépéseket:",
         "steps": {
-            "step1": {
+            "1": {
                 "title": "1. Lépés",
-                "description": "Hozd el a ruháidat."
+                "description": "Tedd be a ruhát a gépbe."
             },
-            "step2": {
+            "2": {
                 "title": "2. Lépés",
-                "description": "Töltsd meg a kiválasztott mosógépet a ruhákkal."
+                "description": "Válaszd ki a programot."
             },
-            "step3": {
+            "3": {
                 "title": "3. Lépés",
-                "description": "Válaszd ki a megfelelő programot."
+                "description": "Fizess készpénzzel vagy bankkártyával."
             },
-            "step4": {
+            "4": {
                 "title": "4. Lépés",
-                "description": "Fizess készpénzzel vagy bankkártyával majd indítsd el a gépet."
+                "description": "Indítsd el a mosást (akár 35 perc)."
             },
-            "step5": {
+            "5": {
                 "title": "5. Lépés",
-                "description": "Várj 30-40 percet."
-            },
-            "step6": {
-                "title": "6. Lépés",
-                "description": "Vedd ki a tiszta ruháidat."
-            },
-            "step7": {
-                "title": "7. Lépés (Opcionális)",
-                "description": "Ismételd meg a fentebbi lépéseket a szárítógépeinkkel is."
+                "description": "Ha kell, tedd át a szárítóba (kb. 40 perc)."
             }
         }
     },
     "aboutUs": {
         "title": "Rólunk",
         "description": "Nincs szükség időpontfoglalásra, hozd a ruháidat, indítsd el a gépet, és intézd a dolgaidat, amíg a gép dolgozik helyetted! Kényelmes parkolás, egyszerű használat, tiszta eredmény.",
-        "membership": "Bérleteink",
-        "membershipDescription": "Hamarosan elérhetőek lesznek bérleteink, amivel kedvezményesen moshatsz és száríthatsz. Érdeklődj a részletekről a helyszínen vagy az elérhetőségeinken."
+        "membership": "Perla kártya",
+        "membershipDescription": "Hamarosan elérhetőek lesznek több alkalmas bérleteink. Érdeklődj a részletekről a helyszínen vagy az elérhetőségeinken."
     },
     "location": {
         "title": "Itt találsz meg minket",
@@ -100,10 +92,134 @@
             }
         }
     },
+    "faq": {
+        "title": "Gyakran Ismételt Kérdések",
+        "questions": {
+            "1": {
+                "question": "Hol található a Perla Laundry?",
+                "answer": "A mosoda a Porta Pátria lakóház földszintjén található, könnyen elérhető a környéken élők számára."
+            },
+            "2": {
+                "question": "Van parkolási lehetőség?",
+                "answer": "Igen, közvetlenül a mosoda mellett egy nagyobb fizetős parkoló áll rendelkezésre."
+            },
+            "3": {
+                "question": "Mikor van nyitva a Perla Laundry?",
+                "answer": "Nyitvatartás: minden nap 6:00 - 22:00. A gépek zárás előtt legkésőbb 21:00-ig indíthatók el."
+            },
+            "4": {
+                "question": "Hogyan működik a mosoda?",
+                "answer": "A Perla Laundry önkiszolgáló rendszerben működik. A gépek egy érintőképernyős fizetőfelületen keresztül indíthatók, nincs szükség regisztrációra vagy applikációra."
+            },
+            "5": {
+                "question": "Milyen hőfokon és meddig mosnak az egyes programok?",
+                "answer": "A mosás időtartama a választott hőmérséklettől függ. Hidegvízben 35 perc, 40 °C-on 39 perc, 60 °C-on 43 perc, 75 °C-on 58 perc és 90 °C-on pedig 73 perc. A szárítási idő 40 perc."
+            },
+            "6": {
+                "question": "Mennyibe kerül egy mosás vagy szárítás?",
+                "answer": "10 kg kapacitású gépek esetén 2.000 Ft, 14 kg kapacitású gépek esetén pedig 2.300 Ft mind a mosás, mind a szárítás."
+            },
+            "7": {
+                "question": "Kell hoznom saját mosószert?",
+                "answer": "Nem kell. A gépek automatikusan adagolják a prémium minőségű mosószert, így neked ezzel nem kell foglalkoznod."
+            },
+            "8": {
+                "question": "Milyen gépek állnak rendelkezésre?",
+                "answer": "2 db 10 kg-os mosógép, 1 db 14 kg-os mosógép, 2 db 10 kg-os szárítógép és 1 db 14 kg-os szárítógép áll rendelkezésre."
+            },
+            "9": {
+                "question": "Milyen fizetési lehetőségek vannak?",
+                "answer": "A fizetőfelületen bankkártyás és készpénzes fizetés is elérhető."
+            },
+            "10": {
+                "question": "Van személyzet a helyszínen?",
+                "answer": "A Perla Laundry önkiszolgáló, személyzet nem tartózkodik a helyszínen. Kérdés vagy probléma esetén telefonos ügyfélszolgálat áll rendelkezésre."
+            }
+        }
+    },
+    "instructions": {
+        "description": "Nézze meg melyik gép szabad",
+        "steps": {
+            "1": {
+                "text": "Helyezze be a mosandó/szárítandó ruhákat, majd gondosan csukja be a betöltő ajtót."
+            },
+            "2": {
+                "text": "A mosó- és öblítőszert a gép automatikusan adagolja."
+            },
+            "3": {
+                "text": "Soha ne rakja túl a gépet, 2/3 dob töltet a maximum, egyébként nem lesznek tiszták a ruhák és a gép épségét is veszélyeztetheti. A szárítóba max. 10-14 kg nedves ruha tölthető be."
+            },
+            "4": {
+                "text": "Ha készpénzzel fizet:",
+                "children": {
+                    "1": {
+                        "text": "Válassza ki a használni kívánt gépet (1, 2, 3 mosó; 4, 5, 6 szárító)"
+                    },
+                    "2": {
+                        "text": "Válassza ki a készpénzes fizetést"
+                    },
+                    "3": {
+                        "text": "Tegye be a megfelelő összeget! Papír vagy érme formájában. A gép nem ad vissza papírpénzt!"
+                    }
+                }
+            },
+            "5": {
+                "text": "Ha kártyával fizet:",
+                "children": {
+                    "1": {
+                        "text": "Válassza ki a használni kívánt gépet (1, 2, 3 mosó; 4, 5, 6 szárító)"
+                    },
+                    "2": {
+                        "text": "Válassza ki a bankkártyás fizetést"
+                    },
+                    "3": {
+                        "text": "Érintse vagy húzza le a kártyáját"
+                    }
+                }
+            },
+            "6": {
+                "text": "A mosó/szárítógépen válassza ki a megfelelő programot és nyomja meg a START gombot."
+            }
+        },
+        "footer": "Ezután van minimum 35 perce, igyon egy finom kávét vagy egyen valamit az első emeleten található bisztróban.",
+        "emegency": "Probléma esetén, hívja a +36 20 263 7000 -es számot!"
+    },
+    "terms": {
+        "title": "Szabályzat",
+        "rules": {
+            "tips": {
+                "text": "Használati tanácsok",
+                "1": "Mielőtt bepakolná a ruhákat, győződjön meg róla, hogy a dob teljesen üres.",
+                "2": "Ellenőrizze a ruhadarabokat, hogy ne maradjon bennük idegen tárgy (pl. kő, aprópénz, kulcs stb.).",
+                "3": "Mindig tartsa be a ruhák címkéjén található kezelési útmutatót.",
+                "4": "Kérjük, ne nyomkodja feleslegesen a gombokat, és a program elindítása után már ne adjon hozzá mosószert.",
+                "5": "A ruhák betöltése előtt rázza ki azokat, hogy a por és a szennyeződések eltávozzanak.",
+                "6": "A program befejezése után minél előbb vegye ki a ruhákat a gépből.",
+                "7": "Ne terhelje túl a gépet - hagyjon elegendő mozgásteret a ruháknak."
+            },
+            "use": {
+                "text": "Perla laundry - használati feltételek",
+                "1": "A mosandó tételeket nézze át, a zsebeket ürítse ki, a cipzárakat húzza be, csatokat kapcsolja össze!",
+                "2": "Csak normál ruhadarabokat és egyéb általános háztartási textíliát (pl. törölközők, lepedők stb.) mosson - a tiltott anyagokat lásd lent!",
+                "3": "Ne helyezzen a gépbe fémet, merev műanyagot, vízhatlan terméket (pl. sátrat, ponyvát)!",
+                "4": "Ne tegyen a gépbe gumit, gumi- vagy habszivacs anyagot, festékes ruhát, oldószerrel vagy benzin alapú hígítóval kezelt ruhadarabot!",
+                "5": "Tűzveszélyes, gyúlékony vagy robbanékony anyaggal szennyezett ruhát TILOS betenni!",
+                "6": "A gép nem játék! Ne engedje, hogy gyermek bemásszon vagy a géppel játsszon!",
+                "7": "A program elindítása után ne nyomogassa a gombokat, ne próbálja meg kinyitni az ajtót a program vége előtt!",
+                "8": "A mosóprogram nem állítható le!"
+            },
+            "notice": {
+                "text": "Fontos figyelmeztetés",
+                "1": "TILOS szőnyeget, gumírozott aljú textilt, állatszőrös textíliát, vagy sérült huzatú töltött anyagot (pl. takarót, párnát, kabátot) a gépbe helyezni!",
+                "2": "A hatékony mosás és szárítás érdekében NE tömjék tele a gépeket - csak a dob felső harmadáig pakoljanak ruhát vagy textíliát!"
+            }
+        }
+    },
     "footer": {
         "support": "Információk",
         "faq": "GY.I.K",
-        "rules": "Szabályzat",
-        "getInTouch": "Kapcsolat"
+        "terms": "Szabályzatok",
+        "instructions": "Használati útmutató",
+        "contact": "Kapcsolat"
     }
 }

@@ -45,16 +45,17 @@ footer {
     }
 }
 
-@media (max-width: $breakpoint-desktop) {
-    // .footer {
-    //   background-color: blue;
-    // }
-}
+// @media (max-width: $breakpoint-desktop) {
+//     .footer {
+//       background-color: blue;
+//     }
+// }
 
 @media (max-width: $breakpoint-tablet) {
     .footer {
-        height: 14rem;
+        height: 16rem;
         flex-direction: column-reverse;
+        align-items: center;
         gap: 1rem;
 
         .container {
@@ -62,12 +63,14 @@ footer {
             flex-direction: column-reverse;
             align-items: center;
             margin: 0;
-            height: 2rem;
+            height: 4rem;
             width: 100%;
+
 
             > svg {
                 visibility: hidden;
                 height: 0;
+                margin-bottom: 1.5rem;
             }
         }
 
