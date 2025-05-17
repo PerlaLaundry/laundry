@@ -7,21 +7,18 @@
     },
     "introduction": {
         "welcome": "Üdv a Mosodában",
-        "description": "Mosás vagy szárítás 40 perc alatt - egyszerűen, önkiszolgáló módon."
+        "description": "Mosás vagy szárítás 40 perc alatt - egyszerűen, önkiszolgáló módon.",
+        "video": "Nincs foglalás - gyere, amikor Neked kényelmes!"
     },
     "services": {
         "title": "Elérhető szolgáltatásaink",
-        "description1": "Modern gépek, gyors mosás és szárítás egy helyen. Foglalás nélkül, bármikor használható!",
+        "description1": "Modern gépek, gyors mosás és szárítás egy helyen.",
         "description2": "Mosó- és szárítógépeink két változatban érhetők el.",
-        "small": {
-            "title": "Kis kapacitású",
-            "limit": "10 kg"
-        },
-        "big": {
-            "title": "Nagy kapacitású",
-            "limit": "14 kg"
-        },
-        "machineDescription": "Mennyiség"
+        "washer": "Mosógépek",
+        "dryer": "Szárítógépek",
+        "capacity": "Űrtartalom",
+        "moreInformation": "További információk",
+        "clickHere": "Gyártói oldal"
     },
     "howToUse": {
         "title": "Használati útmutató",
