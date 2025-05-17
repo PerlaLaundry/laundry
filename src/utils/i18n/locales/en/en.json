@@ -139,6 +139,54 @@
             }
         }
     },
+
+    "instructions": {
+        "description": "Check which machine is free",
+        "steps": {
+            "1": {
+                "text": "Place the laundry/drying clothes into the machine, then carefully close the door."
+            },
+            "2": {
+                "text": "The washing machine automatically dispenses detergent and softener."
+            },
+            "3": {
+                "text": "Never overload the machine, 2/3 of the drum is the maximum - otherwise the clothes won't be clean and the machine may be damaged. The dryer can handle a maximum of 10-14 kg of wet clothes."
+            },
+            "4": {
+                "text": "If paying with cash:",
+                "children": {
+                    "1": {
+                        "text": "Select the machine you want to use (washer or dryer)"
+                    },
+                    "2": {
+                        "text": "Choose the cash payment option"
+                    },
+                    "3": {
+                        "text": "Insert the correct amount! In coins or banknotes. The machine does not give change for banknotes!"
+                    }
+                }
+            },
+            "5": {
+                "text": "If paying by card",
+                "children": {
+                    "1": {
+                        "text": "Select the machine you want to use (washer or dryer)"
+                    },
+                    "2": {
+                        "text": "Choose card payment"
+                    },
+                    "3": {
+                        "text": "Tap or swipe your card"
+                    }
+                }
+            },
+            "6": {
+                "text": "On the washing/drying machine, select the appropriate program and press the START button."
+            }
+        },
+        "footer": "You now have at least 35 minutes - grab a nice coffee or have something to eat at the bistro on the first floor.",
+        "emegency": "In case of emergency, call +36202637000"
+    },
     "footer": {
         "support": "Support",
         "faq": "FAQ",

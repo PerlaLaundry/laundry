@@ -137,6 +137,53 @@
             }
         }
     },
+    "instructions": {
+        "description": "Nézze meg melyik gép szabad",
+        "steps": {
+            "1": {
+                "text": "Helyezze be a mosandó/szárítandó ruhákat, majd gondosan csukja be a betöltő ajtót."
+            },
+            "2": {
+                "text": "A mosó- és öblítőszert a gép automatikusan adagolja."
+            },
+            "3": {
+                "text": "Soha ne rakja túl a gépet, 2/3 dob töltet a maximum, egyébként nem lesznek tiszták a ruhák és a gép épségét is veszélyeztetheti. A szárítóba max. 10-14 kg nedves ruha tölthető be."
+            },
+            "4": {
+                "text": "Ha készpénzzel fizet:",
+                "children": {
+                    "1": {
+                        "text": "Válassza ki a használni kívánt gépet (1, 2, 3 mosó; 4, 5, 6 szárító)"
+                    },
+                    "2": {
+                        "text": "Válassza ki a készpénzes fizetést"
+                    },
+                    "3": {
+                        "text": "Tegye be a megfelelő összeget! Papír vagy érme formájában. A gép nem ad vissza papírpénzt!"
+                    }
+                }
+            },
+            "5": {
+                "text": "Ha kártyával fizet:",
+                "children": {
+                    "1": {
+                        "text": "Válassza ki a használni kívánt gépet (1, 2, 3 mosó; 4, 5, 6 szárító)"
+                    },
+                    "2": {
+                        "text": "Válassza ki a bankkártyás fizetést"
+                    },
+                    "3": {
+                        "text": "Érintse vagy húzza le a kártyáját"
+                    }
+                }
+            },
+            "6": {
+                "text": "A mosó/szárítógépen válassza ki a megfelelő programot és nyomja meg a START gombot."
+            }
+        },
+        "footer": "Ezután van minimum 35 perce, igyon egy finom kávét vagy egyen valamit az első emeleten található bisztróban.",
+        "emegency": "Probléma esetén, hívja a +36 20 263 7000 -es számot!"
+    },
     "footer": {
         "support": "Információk",
         "faq": "GY.I.K",
