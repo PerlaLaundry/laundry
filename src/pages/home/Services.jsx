@@ -6,10 +6,12 @@ import big from "../../assets/big.png";
 const ServiceTile = ({ tile }) => {
   const { t } = useTranslation();
 
-  const { icon, title, capacity, limit, moreInformation } = tile;
+  const { id, icon, title, capacity, limit, moreInformation } = tile;
 
   return (
-    <div className="service-tile">
+    <div
+      className={`service-tile ${id === "drying" ? "inverted-structure" : ""}`}
+    >
       <img src={icon} alt={title} />
       <div className="info">
         <p className="title">{title}</p>
