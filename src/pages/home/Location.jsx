@@ -3,36 +3,19 @@ import { useTranslation } from "react-i18next";
 const Location = () => {
   const { t } = useTranslation();
 
-  const opneningHours = [
-    {
-      text: t("location.days.monday.text"),
-      hours: t("location.days.monday.open"),
-    },
-    {
-      text: t("location.days.tuesday.text"),
-      hours: t("location.days.tuesday.open"),
-    },
-    {
-      text: t("location.days.wednesday.text"),
-      hours: t("location.days.wednesday.open"),
-    },
-    {
-      text: t("location.days.thursday.text"),
-      hours: t("location.days.thursday.open"),
-    },
-    {
-      text: t("location.days.friday.text"),
-      hours: t("location.days.friday.open"),
-    },
-    {
-      text: t("location.days.saturday.text"),
-      hours: t("location.days.saturday.open"),
-    },
-    {
-      text: t("location.days.sunday.text"),
-      hours: t("location.days.sunday.open"),
-    },
+  const days = [
+    "monday",
+    "tuesday",
+    "wednesday",
+    "thursday",
+    "friday",
+    "saturday",
+    "sunday",
   ];
+  const opneningHours = days.map((day) => ({
+    text: t(`location.days.${day}.text`),
+    hours: t(`location.days.${day}.open`),
+  }));
 
   const contactNumber = "+36 20 263 7000";
 

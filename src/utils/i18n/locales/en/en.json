@@ -29,41 +29,33 @@
         "title": "How to use our machines",
         "description": "You can leave the detergent and softener at home. Our washing machines automatically dispense the right amount of detergent and softener, so all you have to do is follow these easy steps:",
         "steps": {
-            "step1": {
+            "1": {
                 "title": "Step 1",
-                "description": "Bring your clothes."
+                "description": "Put your clothes in the machine."
             },
-            "step2": {
+            "2": {
                 "title": "Step 2",
-                "description": "Fill the selected washing machine with clothes."
+                "description": "Select a program."
             },
-            "step3": {
+            "3": {
                 "title": "Step 3",
-                "description": "Select the right program."
+                "description": "Pay with cash or card."
             },
-            "step4": {
+            "4": {
                 "title": "Step 4",
-                "description": "Pay with cash or card and start the machine."
+                "description": "Start the washing (starting from 35 minutes)."
             },
-            "step5": {
+            "5": {
                 "title": "Step 5",
-                "description": "Wait for 30-40 minutes."
-            },
-            "step6": {
-                "title": "Step 6",
-                "description": "Take out your clean clothes."
-            },
-            "step7": {
-                "title": "Step 7 (Optional)",
-                "description": "Repeat the above steps with our dryers."
+                "description": "If needed, transfer to the dryer (approximately 40 minutes)."
             }
         }
     },
     "aboutUs": {
         "title": "About us",
-        "description": "Our goal is to provide a fast and convenient laundry experience for our customers. You don't need to book an appointment, just bring your clothes, start the machine, and take care of your things while the machine works for you! Comfortable parking, easy to use, clean results.",
-        "membership": "Membership program",
-        "membershipDescription": "Our membership plans will be available soon, allowing you to wash and dry at a discount. Inquire about the details on-site or through our contact information."
+        "description": "Our mission is to providea fast and convenient laundry experience for our customers. You don't have to book in avance, just bring your laundry and follow the easy steps above. Easy/convinient parking, ease of use, clean results.",
+        "membership": "Perla Card",
+        "membershipDescription": "Membership cards will be available soon. Inquire about the details on-site or through our contact information."
     },
     "location": {
         "title": "You can find us here",
@@ -74,38 +66,39 @@
         "days": {
             "monday": {
                 "text": "Monday",
-                "open": "6:00AM - 10:00PM"
+                "open": "6:00 AM - 10:00 PM"
             },
             "tuesday": {
                 "text": "Tuesday",
-                "open": "6:00AM - 10:00PM"
+                "open": "6:00 AM - 10:00 PM"
             },
             "wednesday": {
                 "text": "Wednesday",
-                "open": "6:00AM - 10:00PM"
+                "open": "6:00 AM - 10:00 PM"
             },
             "thursday": {
                 "text": "Thursday",
-                "open": "6:00AM - 10:00PM"
+                "open": "6:00 AM - 10:00 PM"
             },
             "friday": {
                 "text": "Friday",
-                "open": "6:00AM - 10:00PM"
+                "open": "6:00 AM - 10:00 PM"
             },
             "saturday": {
                 "text": "Saturday",
-                "open": "6:00AM - 10:00PM"
+                "open": "6:00 AM - 10:00 PM"
             },
             "sunday": {
                 "text": "Sunday",
-                "open": "6:00AM - 10:00PM"
+                "open": "6:00 AM - 10:00 PM"
             }
         }
     },
     "footer": {
         "support": "Support",
-        "faq": "Common questions",
-        "rules": "Rules",
-        "getInTouch": "Get in touch"
+        "faq": "FAQ",
+        "terms": "Laundry rules",
+        "instructions": "User instructions",
+        "contact": "Get in touch"
     }
 }

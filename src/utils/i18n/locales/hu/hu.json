@@ -21,47 +21,39 @@
             "title": "Nagy kapacitású",
             "limit": "14 kg"
         },
-        "machineDescription": "Ruhamennyiség"
+        "machineDescription": "Mennyiség"
     },
     "howToUse": {
         "title": "Használati útmutató",
         "description": "A mosószert és az öblítőt nyugodtan hagyd otthon. Mosógépeinkbe automatikusan adagolják a megfelelő mennyiségű mosószert és öblítőt, így más dolgot nincs csak követni a következő lépéseket:",
         "steps": {
-            "step1": {
+            "1": {
                 "title": "1. Lépés",
-                "description": "Hozd el a ruháidat."
+                "description": "Tedd be a ruhát a gépbe."
             },
-            "step2": {
+            "2": {
                 "title": "2. Lépés",
-                "description": "Töltsd meg a kiválasztott mosógépet a ruhákkal."
+                "description": "Válaszd ki a programot."
             },
-            "step3": {
+            "3": {
                 "title": "3. Lépés",
-                "description": "Válaszd ki a megfelelő programot."
+                "description": "Fizess készpénzzel vagy bankkártyával."
             },
-            "step4": {
+            "4": {
                 "title": "4. Lépés",
-                "description": "Fizess készpénzzel vagy bankkártyával majd indítsd el a gépet."
+                "description": "Indítsd el a mosást (akár 35 perc)."
             },
-            "step5": {
+            "5": {
                 "title": "5. Lépés",
-                "description": "Várj 30-40 percet."
-            },
-            "step6": {
-                "title": "6. Lépés",
-                "description": "Vedd ki a tiszta ruháidat."
-            },
-            "step7": {
-                "title": "7. Lépés (Opcionális)",
-                "description": "Ismételd meg a fentebbi lépéseket a szárítógépeinkkel is."
+                "description": "Ha kell, tedd át a szárítóba (kb. 40 perc)."
             }
         }
     },
     "aboutUs": {
         "title": "Rólunk",
         "description": "Nincs szükség időpontfoglalásra, hozd a ruháidat, indítsd el a gépet, és intézd a dolgaidat, amíg a gép dolgozik helyetted! Kényelmes parkolás, egyszerű használat, tiszta eredmény.",
-        "membership": "Bérleteink",
-        "membershipDescription": "Hamarosan elérhetőek lesznek bérleteink, amivel kedvezményesen moshatsz és száríthatsz. Érdeklődj a részletekről a helyszínen vagy az elérhetőségeinken."
+        "membership": "Perla kártya",
+        "membershipDescription": "Hamarosan elérhetőek lesznek több alkalmas bérleteink. Érdeklődj a részletekről a helyszínen vagy az elérhetőségeinken."
     },
     "location": {
         "title": "Itt találsz meg minket",
@@ -103,7 +95,8 @@
     "footer": {
         "support": "Információk",
         "faq": "GY.I.K",
-        "rules": "Szabályzat",
-        "getInTouch": "Kapcsolat"
+        "terms": "Szabályzatok",
+        "instructions": "Használati útmutató",
+        "contact": "Kapcsolat"
     }
 }

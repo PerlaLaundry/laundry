@@ -1,45 +1,16 @@
 import { useTranslation } from "react-i18next";
+import { getStepsArray } from "../../utils/utils";
 
 const HowToUse = () => {
   const { t } = useTranslation();
 
-  const steps = [
-    {
-      id: "step1",
-      title: t("howToUse.steps.step1.title"),
-      description: t("howToUse.steps.step1.description"),
-    },
-    {
-      id: "step2",
-      title: t("howToUse.steps.step2.title"),
-      description: t("howToUse.steps.step2.description"),
-    },
-    {
-      id: "step3",
-      title: t("howToUse.steps.step3.title"),
-      description: t("howToUse.steps.step3.description"),
-    },
-    {
-      id: "step4",
-      title: t("howToUse.steps.step4.title"),
-      description: t("howToUse.steps.step4.description"),
-    },
-    {
-      id: "step5",
-      title: t("howToUse.steps.step5.title"),
-      description: t("howToUse.steps.step5.description"),
-    },
-    {
-      id: "step6",
-      title: t("howToUse.steps.step6.title"),
-      description: t("howToUse.steps.step6.description"),
-    },
-    {
-      id: "step7",
-      title: t("howToUse.steps.step7.title"),
-      description: t("howToUse.steps.step7.description"),
-    },
-  ];
+  const steps = getStepsArray(5).map((step, index) => (
+    <li key={`how-to-use-${step}`} style={{ "--index": index }}>
+      <h3>{t(`howToUse.steps.${step}.title`)}</h3>
+      <p>{t(`howToUse.steps.${step}.description`)}</p>
+      <p>{step.description}</p>
+    </li>
+  ));
 
   return (
     <section id="howToUse-section" className="howToUse">
@@ -49,14 +20,7 @@ const HowToUse = () => {
           <p>{t("howToUse.description")}</p>
         </div>
       </div>
-      <ul>
-        {steps.map((step, index) => (
-          <li key={step.id} style={{ "--index": index }}>
-            <h3>{step.title}</h3>
-            <p>{step.description}</p>
-          </li>
-        ))}
-      </ul>
+      <ul>{steps}</ul>
     </section>
   );
 };
