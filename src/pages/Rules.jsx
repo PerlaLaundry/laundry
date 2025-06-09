@@ -12,7 +12,7 @@ const Rules = () => {
   const rules = [
     {
       text: "tips",
-      children: getStepsArray(7),
+      children: getStepsArray(8),
     },
     {
       text: "use",
@@ -44,6 +44,10 @@ const Rules = () => {
               </div>
             );
           })}
+        </div>
+        <div className="terms__footer">
+          <p>{t(`terms.rules.footer1`)}</p>
+          <p>{t(`terms.rules.footer2`)}</p>
         </div>
       </div>
     </section>

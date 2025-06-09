@@ -110,7 +110,7 @@
             },
             "5": {
                 "question": "How long does each cycle take and what temperature does it use?",
-                "answer": "It depends on the temperature of the cycle. For washing cold water takes up 35 minutes, 40 °C 39 minutes, 60 °C 43 minutes, 75 °C 58 minutes and 90 °C takes 73 minutes. Drying cycle 40 minutes."
+                "answer": "It depends on the temperature of the cycle. Washing in cold water takes up 35 minutes, 40 °C 39 minutes, 60 °C 43 minutes, 75 °C 58 minutes and 90 °C takes 73 minutes. Drying cycle takes 40 minutes."
             },
             "6": {
                 "question": "How much does a washing or drying cost?",
@@ -144,19 +144,19 @@
                 "text": "The washing machine automatically dispenses detergent and softener."
             },
             "3": {
-                "text": "Never overload the machine, 2/3 of the drum is the maximum - otherwise the clothes won't be clean and the machine may be damaged. The dryer can handle a maximum of 10-14 kg of wet clothes."
+                "text": "Never overload the machine - fill it only up to two-thirds of the drum at most. Overloading reduces washing efficiency and may damage the machine."
             },
             "4": {
                 "text": "If paying with cash:",
                 "children": {
                     "1": {
-                        "text": "Select the machine you want to use (washer or dryer)"
+                        "text": "Select the machine you want to use (washer: 1, 2, 3 - dryer: 1, 2, 3)"
                     },
                     "2": {
                         "text": "Choose the cash payment option"
                     },
                     "3": {
-                        "text": "Insert the correct amount! In coins or banknotes. The machine does not give change for banknotes!"
+                        "text": "Insert the correct amount in coins or banknotes. The machine does not give back change for banknotes!"
                     }
                 }
             },
@@ -164,7 +164,7 @@
                 "text": "If paying by card",
                 "children": {
                     "1": {
-                        "text": "Select the machine you want to use (washer or dryer)"
+                        "text": "Select the machine you want to use (washer: 1, 2, 3 - dryer: 1, 2, 3)"
                     },
                     "2": {
                         "text": "Choose card payment"
@@ -179,20 +179,21 @@
             }
         },
         "footer": "You now have at least 35 minutes - grab a nice coffee or have something to eat at the bistro on the first floor.",
-        "emegency": "In case of emergency, call +36202637000"
+        "emegency": "In case of emergency, call +36 20 263 7000"
     },
     "terms": {
         "title": "Terms",
         "rules": {
             "tips": {
                 "text": "Usage Tips",
-                "1": "Before loading, always check that the drum is completely empty.",
-                "2": "Carefully inspect the clothes to ensure there are no foreign objects (e.g. stones, coins, keys).",
-                "3": "Always follow the care instructions found on the garment labels.",
-                "4": "Please avoid pressing buttons unnecessarily, and do not add detergent after the cycle has started.",
-                "5": "Shake out clothes before loading to help remove dust and dirt.",
-                "6": "Once the cycle is complete, remove the clothes promptly",
-                "7": "Do not overload the machine - make sure the clothes have enough space to move freely."
+                "1": "When you finish washing, please leave the washing machine door open!",
+                "2": "Before loading, always check that the drum is completely empty.",
+                "3": "Carefully inspect the clothes to ensure there are no foreign objects (e.g. stones, coins, keys).",
+                "4": "Always follow the care instructions found on the garment labels.",
+                "5": "Please avoid pressing buttons unnecessarily, and do not add detergent after the cycle has started.",
+                "6": "Shake out clothes before loading to help remove dust and dirt.",
+                "7": "Once the cycle has completed, remove the clothes promptly",
+                "8": "Do not overload the machine - make sure the clothes have enough space to move freely."
             },
             "use": {
                 "text": "Perla laundry - Terms of use",
@@ -209,7 +210,9 @@
                 "text": "Important notice",
                 "1": "Do not place carpets, rubber-backed textiles, items covered in pet hair, or filled textiles with damaged covers (e.g., blankets, pillows, jackets) into the machines!",
                 "2": "For effective washing and drying, DO NOT overload the machines - fill only up to the top third of the drum"
-            }
+            },
+            "footer1": "Kind regards,",
+            "footer2": "Perla Laundry Team"
         }
     },
     "footer": {

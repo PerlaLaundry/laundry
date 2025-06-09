@@ -1,6 +1,8 @@
 import { useEffect } from "react";
 import { useTranslation } from "react-i18next";
+
 import { getStepsArray } from "../utils/utils";
+import videoSrc from "../assets/videos/tutorial.mp4";
 
 const Instructions = () => {
   const { t } = useTranslation();
@@ -30,12 +32,15 @@ const Instructions = () => {
 
   return (
     <section className="instructions">
+      <h2 className="instructions__title">{t("instructions.description")}</h2>
       <div className="content">
-        <h2>{t("instructions.description")}</h2>
-        <div className="instructions__steps">{steps}</div>
-        <h4>{t("instructions.footer")}</h4>
-        <h2>{t("instructions.emegency")}</h2>
+        <video src={videoSrc} controls />
+        <div className="description">
+          <div className="instructions__steps">{steps}</div>
+          <h4>{t("instructions.footer")}</h4>
+        </div>
       </div>
+      <h2 className="instructions__footer">{t("instructions.emegency")}</h2>
     </section>
   );
 };

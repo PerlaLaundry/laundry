@@ -10,7 +10,9 @@ const ServiceTile = ({ tile }) => {
 
   return (
     <div
-      className={`service-tile ${id === "drying" ? "inverted-structure" : ""}`}
+      className={`service-tile ${
+        id === "drying" ? "inverted-structure" : "washing"
+      }`}
     >
       <img src={icon} alt={title} />
       <div className="info">
