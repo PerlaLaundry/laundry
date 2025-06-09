@@ -138,25 +138,25 @@
         "description": "Nézze meg melyik gép szabad",
         "steps": {
             "1": {
-                "text": "Helyezze be a mosandó/szárítandó ruhákat, majd gondosan csukja be a betöltő ajtót."
+                "text": "Helyezze be a mosandó / szárítandó ruhákat, majd gondosan csukja be a betöltő ajtót."
             },
             "2": {
                 "text": "A mosó- és öblítőszert a gép automatikusan adagolja."
             },
             "3": {
-                "text": "Soha ne rakja túl a gépet, 2/3 dob töltet a maximum, egyébként nem lesznek tiszták a ruhák és a gép épségét is veszélyeztetheti. A szárítóba max. 10-14 kg nedves ruha tölthető be."
+                "text": "A gépet soha ne töltse túl - legfeljebb a dob kétharmadáig pakolja meg. A túlterhelés rontja a mosás hatékonyságát és károsíthatja a gépet."
             },
             "4": {
                 "text": "Ha készpénzzel fizet:",
                 "children": {
                     "1": {
-                        "text": "Válassza ki a használni kívánt gépet (1, 2, 3 mosó; 4, 5, 6 szárító)"
+                        "text": "Válassza ki a használni kívánt gépet (mosógép: 1, 2, 3 - szárítógép: 4, 5, 6)"
                     },
                     "2": {
                         "text": "Válassza ki a készpénzes fizetést"
                     },
                     "3": {
-                        "text": "Tegye be a megfelelő összeget! Papír vagy érme formájában. A gép nem ad vissza papírpénzt!"
+                        "text": "Tegye be a pontos összeget papír vagy érme formájában. A gép nem ad vissza papírpénzt!"
                     }
                 }
             },
@@ -164,7 +164,7 @@
                 "text": "Ha kártyával fizet:",
                 "children": {
                     "1": {
-                        "text": "Válassza ki a használni kívánt gépet (1, 2, 3 mosó; 4, 5, 6 szárító)"
+                        "text": "Válassza ki a használni kívánt gépet (mosógép: 1, 2, 3 - szárítógép: 4, 5, 6)"
                     },
                     "2": {
                         "text": "Válassza ki a bankkártyás fizetést"
@@ -175,7 +175,7 @@
                 }
             },
             "6": {
-                "text": "A mosó/szárítógépen válassza ki a megfelelő programot és nyomja meg a START gombot."
+                "text": "A mosó- és szárítógépen válassza ki a megfelelő programot és nyomja meg a START gombot."
             }
         },
         "footer": "Ezután van minimum 35 perce, igyon egy finom kávét vagy egyen valamit az első emeleten található bisztróban.",
@@ -186,13 +186,14 @@
         "rules": {
             "tips": {
                 "text": "Használati tanácsok",
-                "1": "Mielőtt bepakolná a ruhákat, győződjön meg róla, hogy a dob teljesen üres.",
-                "2": "Ellenőrizze a ruhadarabokat, hogy ne maradjon bennük idegen tárgy (pl. kő, aprópénz, kulcs stb.).",
-                "3": "Mindig tartsa be a ruhák címkéjén található kezelési útmutatót.",
-                "4": "Kérjük, ne nyomkodja feleslegesen a gombokat, és a program elindítása után már ne adjon hozzá mosószert.",
-                "5": "A ruhák betöltése előtt rázza ki azokat, hogy a por és a szennyeződések eltávozzanak.",
-                "6": "A program befejezése után minél előbb vegye ki a ruhákat a gépből.",
-                "7": "Ne terhelje túl a gépet - hagyjon elegendő mozgásteret a ruháknak."
+                "1": "Miután végzett a mosással, kérjük hagyja nyitva a mosógép ajtaját",
+                "2": "Mielőtt bepakolná a ruhákat, győződjön meg róla, hogy a dob teljesen üres.",
+                "3": "Ellenőrizze a ruhadarabokat, hogy ne maradjon bennük idegen tárgy (pl. kő, aprópénz, kulcs stb.).",
+                "4": "Mindig tartsa be a ruhák címkéjén található kezelési útmutatót.",
+                "5": "Kérjük, ne nyomkodja feleslegesen a gombokat, és a program elindítása után már ne adjon hozzá mosószert.",
+                "6": "A ruhák betöltése előtt rázza ki azokat, hogy a por és a szennyeződések eltávozzanak.",
+                "7": "A program befejezése után minél előbb vegye ki a ruhákat a gépből.",
+                "8": "Ne terhelje túl a gépet - hagyjon elegendő mozgásteret a ruháknak."
             },
             "use": {
                 "text": "Perla laundry - használati feltételek",
@@ -209,7 +210,9 @@
                 "text": "Fontos figyelmeztetés",
                 "1": "TILOS szőnyeget, gumírozott aljú textilt, állatszőrös textíliát, vagy sérült huzatú töltött anyagot (pl. takarót, párnát, kabátot) a gépbe helyezni!",
                 "2": "A hatékony mosás és szárítás érdekében NE tömjék tele a gépeket - csak a dob felső harmadáig pakoljanak ruhát vagy textíliát!"
-            }
+            },
+            "footer1": "Üdvözlettel",
+            "footer2": "Perla Laundry Csapata"
         }
     },
     "footer": {
