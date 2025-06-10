@@ -6,14 +6,17 @@
         "location": "Helyszín"
     },
     "introduction": {
-        "welcome": "Üdv a Mosodában",
-        "description": "Mosás vagy szárítás 40 perc alatt - egyszerűen, önkiszolgáló módon.",
+        "welcome": "Üdv a Perlában",
+        "description": "Mosás vagy szárítás akár 40 perc alatt - egyszerűen, önkiszolgáló módon.",
         "video": "Nincs foglalás - gyere, amikor Neked kényelmes!"
     },
     "services": {
         "title": "Elérhető szolgáltatásaink",
         "description1": "Modern gépek, gyors mosás és szárítás egy helyen.",
         "description2": "Mosó- és szárítógépeink két változatban érhetők el.",
+        "prices": "Áraink programtól függetlenül egységesek.",
+        "10kg": "10 kg-os gépeink - 2.000 Ft",
+        "14kg": "14 kg-os gépeink - 2.300 Ft",
         "washer": "Mosógépek",
         "dryer": "Szárítógépek",
         "capacity": "Űrtartalom",
@@ -22,33 +25,33 @@
     },
     "howToUse": {
         "title": "Használati útmutató",
-        "description": "A mosószert és az öblítőt nyugodtan hagyd otthon. Mosógépeinkbe automatikusan adagolják a megfelelő mennyiségű mosószert és öblítőt, így más dolgot nincs csak követni a következő lépéseket:",
+        "description": "Mosógépeink automatikusan adagolják a mosószert és öblítőt, így más dolga nincs csak kövesse a következő lépéseket:",
         "steps": {
             "1": {
                 "title": "1. Lépés",
-                "description": "Tedd be a ruhát a gépbe."
+                "description": "Válassza ki a gépet és tegye be a ruhákat."
             },
             "2": {
                 "title": "2. Lépés",
-                "description": "Válaszd ki a programot."
+                "description": "Válassza ki a programot."
             },
             "3": {
                 "title": "3. Lépés",
-                "description": "Fizess készpénzzel vagy bankkártyával."
+                "description": "Fizessen készpénzzel vagy bankkártyával."
             },
             "4": {
                 "title": "4. Lépés",
-                "description": "Indítsd el a mosást (akár 35 perc)."
+                "description": "Indítsa el a mosást (akár 35 perc)."
             },
             "5": {
                 "title": "5. Lépés",
-                "description": "Ha kell, tedd át a szárítóba (kb. 40 perc)."
+                "description": "Ha kell, tegye át a szárítóba és kövesse az első lépést (kb. 40 perc)."
             }
         }
     },
     "aboutUs": {
         "title": "Rólunk",
-        "description": "Nincs szükség időpontfoglalásra, hozd a ruháidat, indítsd el a gépet, és intézd a dolgaidat, amíg a gép dolgozik helyetted! Kényelmes parkolás, egyszerű használat, tiszta eredmény.",
+        "description": "Önkiszolgáló mosoda vagyunk, ahol nem kell időpontot foglalni! Várjuk szeretettel kis, családias mosodánkban a belváros szívében. Hozza a szennyest és indulhat a mosás! Reméljük, hogy elnyeri a tetszését ez a kis hely, amit szívvel-lélekkel alkottunk meg. Köszönjük a bizalmat!",
         "membership": "Perla kártya",
         "membershipDescription": "Hamarosan elérhetőek lesznek több alkalmas bérleteink. Érdeklődj a részletekről a helyszínen vagy az elérhetőségeinken."
     },
@@ -110,7 +113,7 @@
             },
             "5": {
                 "question": "Milyen hőfokon és meddig mosnak az egyes programok?",
-                "answer": "A mosás időtartama a választott hőmérséklettől függ. Hidegvízben 35 perc, 40 °C-on 39 perc, 60 °C-on 43 perc, 75 °C-on 58 perc és 90 °C-on pedig 73 perc. A szárítási idő 40 perc."
+                "answer": "A mosás időtartama a választott hőmérséklettől függ. Hidegvízben 35 perc, 40 °C-on 39 perc, 60 °C-on 43 perc, 75 °C-on 58 perc és 90 °C-on pedig 73 perc. A szárítási idő 40 és 50 perc."
             },
             "6": {
                 "question": "Mennyibe kerül egy mosás vagy szárítás?",
