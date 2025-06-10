@@ -66,6 +66,9 @@ const Services = () => {
       <h2>{t("services.title")}</h2>
       <span>{t("services.description1")}</span>
       <span>{t("services.description2")}</span>
+      <h3>{t("services.prices")}</h3>
+      <span>{t("services.10kg")}</span>
+      <span>{t("services.14kg")}</span>
       <div className="tiles">
         {tiles.map((tile) => (
           <ServiceTile key={tile.id} tile={tile} />

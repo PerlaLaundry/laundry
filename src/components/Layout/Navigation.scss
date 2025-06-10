@@ -84,13 +84,6 @@
   }
 }
 
-// @media (max-width: $breakpoint-desktop) {
-//   .navigation {
-//     height: 8rem;
-//     position: inherit;
-//   }
-// }
-
 @media (max-width: $breakpoint-tablet) {
   .navigation {
     flex-direction: column;

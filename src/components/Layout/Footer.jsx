@@ -1,8 +1,6 @@
 import { useTranslation } from "react-i18next";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faFacebook /* faInstagram */,
-} from "@fortawesome/free-brands-svg-icons";
+import { faFacebook, faInstagram } from "@fortawesome/free-brands-svg-icons";
 
 import Brand from "../../assets/brand.svg?react";
 import FootNavigation from "../common/FootNavigation/FootNavigation";
@@ -31,11 +29,10 @@ const Footer = () => {
   const contactLink = [
     {
       id: "contact",
-      text: "perla.laundry.pecs@gmail.com",
+      text: "perlacleanpecs@gmail.com",
     },
   ];
 
-  // TODO: Add final Instagram page
   return (
     <footer className="footer">
       <div className="container">
@@ -48,9 +45,13 @@ const Footer = () => {
           >
             <FontAwesomeIcon icon={faFacebook} />
           </a>
-          {/* <a href="https://www.instagram.com/perlakilevente">
+          <a
+            href="https://www.instagram.com/perla.laundry.pecs/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <FontAwesomeIcon icon={faInstagram} />
-          </a> */}
+          </a>
         </div>
       </div>
       <div className="more-info">

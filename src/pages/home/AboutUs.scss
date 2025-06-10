@@ -16,10 +16,11 @@ $height: 32rem;
     justify-content: space-between;
     width: 55%;
     height: 80%;
-    margin: 2rem 0;
+    margin: 2rem;
 
     p {
       margin-top: 0;
+      margin-right: 1rem;
       font-size: 1.25rem;
       color: $light-grey;
     }
@@ -41,16 +42,10 @@ $height: 32rem;
   }
 }
 
-// @media (max-width: $breakpoint-desktop) {
-//   .about-us {
-//     background-color: blue;
-//   }
-// }
-
 @media (max-width: $breakpoint-tablet) {
   .about-us {
     flex-direction: column;
-    height: 57rem;
+    height: 60rem;
 
     img {
       height: 20rem;

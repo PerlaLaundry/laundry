@@ -7,7 +7,6 @@ const AboutUs = () => {
 
   return (
     <section id="aboutUs-section" className="about-us">
-      <img src={aboutUs} alt="Live picture about laundry" />
       <div className="about-us-info">
         <div>
           <h2>{t("aboutUs.title")}</h2>
@@ -18,6 +17,7 @@ const AboutUs = () => {
           <p>{t("aboutUs.membershipDescription")}</p>
         </div>
       </div>
+      <img src={aboutUs} alt="Live picture about laundry" />
     </section>
   );
 };

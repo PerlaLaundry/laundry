@@ -6,14 +6,17 @@
         "location": "Location"
     },
     "introduction": {
-        "welcome": "Welcome to the Laundry",
-        "description": "Self-served, easy washing or drying under 40 minutes.",
+        "welcome": "Welcome to Perla",
+        "description": "Self-served, easy washing or drying, up to 40 minutes.",
         "video": "Without reservation - come whenever you like!"
     },
     "services": {
         "title": "Available services",
         "description1": "Modern machines, fast washing and drying in one place.",
         "description2": "Our washing and drying machines are available in two versions.",
+        "prices": "Prices are uniform for both washing and drying.",
+        "10kg": "10 kg capacity - 2,000 HUF",
+        "14kg": "14 kg capacity - 2,300 HUF",
         "washer": "Washers",
         "dryer": "Dryers",
         "capacity": "Capacity",
@@ -22,11 +25,11 @@
     },
     "howToUse": {
         "title": "How to use our machines",
-        "description": "You can leave the detergent and softener at home. Our washing machines automatically dispense the right amount of detergent and softener, so all you have to do is follow these easy steps:",
+        "description": " Our washing machines automatically dispense detergent and softener, so all you have to do is follow these easy steps:",
         "steps": {
             "1": {
                 "title": "Step 1",
-                "description": "Put your clothes in the machine."
+                "description": "Choose the correct machine and put your clothes in the machine."
             },
             "2": {
                 "title": "Step 2",
@@ -42,13 +45,13 @@
             },
             "5": {
                 "title": "Step 5",
-                "description": "If needed, transfer to the dryer (approximately 40 minutes)."
+                "description": "If needed, transfer to the dryer and start from step one (approximately 40 minutes)."
             }
         }
     },
     "aboutUs": {
         "title": "About us",
-        "description": "Our mission is to providea fast and convenient laundry experience for our customers. You don't have to book in avance, just bring your laundry and follow the easy steps above. Easy/convinient parking, ease of use, clean results.",
+        "description": "We are a self-service laundry where you don't need to book an appointment! We warmly welcome you to our small, family-run laundry in the heart of the city center. Bring your laundry and the washing can begin! We hope you will like this little place that we have created with love and care. Thank you for your trust!",
         "membership": "Perla Card",
         "membershipDescription": "Membership cards will be available soon. Inquire about the details on-site or through our contact information."
     },
@@ -110,7 +113,7 @@
             },
             "5": {
                 "question": "How long does each cycle take and what temperature does it use?",
-                "answer": "It depends on the temperature of the cycle. Washing in cold water takes up 35 minutes, 40 °C 39 minutes, 60 °C 43 minutes, 75 °C 58 minutes and 90 °C takes 73 minutes. Drying cycle takes 40 minutes."
+                "answer": "It depends on the temperature of the cycle. Washing in cold water takes up 35 minutes, 40 °C 39 minutes, 60 °C 43 minutes, 75 °C 58 minutes and 90 °C takes 73 minutes. There are two drying cycles, 40 and 50 minutes."
             },
             "6": {
                 "question": "How much does a washing or drying cost?",

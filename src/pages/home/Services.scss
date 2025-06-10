@@ -7,7 +7,7 @@
   justify-content: center;
   background-color: white;
   color: $font-color;
-  height: 27rem;
+  height: 35rem;
   padding: 20px;
 
   h2 {
@@ -102,15 +102,9 @@
   }
 }
 
-// @media (max-width: $breakpoint-desktop) {
-//   .services {
-//     background-color: blue;
-//   }
-// }
-
 @media (max-width: $breakpoint-tablet) {
   .services {
-    height: 65rem;
+    height: 75rem;
     align-items: start;
 
     .tiles {

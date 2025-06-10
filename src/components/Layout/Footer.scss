@@ -45,12 +45,6 @@ footer {
     }
 }
 
-// @media (max-width: $breakpoint-desktop) {
-//     .footer {
-//       background-color: blue;
-//     }
-// }
-
 @media (max-width: $breakpoint-tablet) {
     .footer {
         height: 20rem;
@@ -71,6 +65,16 @@ footer {
                 visibility: hidden;
                 height: 0;
                 margin-bottom: 1.5rem;
+            }
+
+            .social-media {
+                gap: 1.5rem;
+
+                 svg {
+                    height: 2rem;
+                    width: 2rem;
+                    color: $font-color;
+                }
             }
         }
 
