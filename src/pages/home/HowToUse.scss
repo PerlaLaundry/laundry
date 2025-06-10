@@ -5,25 +5,32 @@
   justify-content: space-between;
   background-color: $light-grey;
   color: $font-color;
-  height: 26.5rem;
+  height: 38rem;
+
+  video {
+    margin: 1rem;
+  }
 
   .content {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    width: 40%;
-    padding: 2rem;
+    width: 75%;
+    padding: 2rem 0 2rem;
+  }
+
+  h2 {
+    margin-top: 0;
   }
 
   ul {
     list-style-type: none;
-    padding: 0;
-    width: 50%;
+    padding: 0 0 0 4rem;
 
     li {
       background-color: white;
-      padding: 0.5rem;
-      --base-indent: 2rem;
+      padding: 0.75rem;
+      --base-indent: 4rem;
       margin-left: calc(var(--base-indent) * (var(--index, 0)) - 2rem);
       margin-bottom: 0.5rem;
       border-radius: 0.5rem 0 0 0.5rem;
@@ -36,17 +43,11 @@
   }
 }
 
-// @media (max-width: $breakpoint-desktop) {
-//   .howToUse {
-//     background-color: blue;
-//   }
-// }
-
 @media (max-width: $breakpoint-tablet) {
   .howToUse {
-    flex-direction: column;
+    flex-direction: column-reverse;
     justify-content: start;
-    height: 46rem;
+    height: 95rem;
 
     .content {
       width: 100%;
@@ -64,14 +65,13 @@
     }
 
     ul {
-      width: 100%;
-      margin: 0;
+      width: 97.5%;
+      margin: 2rem 0.5rem 0;
+      padding-left: 0rem;
   
       li {
-        padding: 0.5rem;
-        margin-left: 0.5rem;
-        margin-bottom: 0.5rem;
-        border-radius: 0.5rem 0 0 0.5rem;
+        padding: 0.75rem 0 0.75rem 0.75rem;
+        margin-left: 0;
       }
     }
   }
