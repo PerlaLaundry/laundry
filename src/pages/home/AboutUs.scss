@@ -1,0 +1,67 @@
+@use "../../styles/variables" as *;
+
+$height: 32rem;
+
+.about-us {
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  background-color: $dark-olive;
+  color: $font-color-inverted;
+  height: $height;
+
+  .about-us-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 55%;
+    height: 80%;
+    margin: 2rem;
+
+    p {
+      margin-top: 0;
+      margin-right: 1rem;
+      font-size: 1.25rem;
+      color: $light-grey;
+    }
+
+    h2 {
+      margin-top: 0;
+    }
+
+    h3 {
+      margin-top: 1.25rem;
+      color: $font-color-inverted;
+      font-size: 1.5rem;
+    }
+  }
+
+  img {
+    height: $height;
+    width: 42%;
+  }
+}
+
+@media (max-width: $breakpoint-tablet) {
+  .about-us {
+    flex-direction: column;
+    height: 60rem;
+
+    img {
+      height: 20rem;
+      width: 100%;
+    }
+
+    .about-us-info {
+      width: 100%;
+      margin: 0rem;
+      
+      h2,
+      h3,
+      p {
+        margin: 1rem;
+        margin-bottom: 2rem;
+      }
+    }
+  }
+}

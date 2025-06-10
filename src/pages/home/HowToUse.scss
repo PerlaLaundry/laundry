@@ -1,0 +1,78 @@
+@use "../../styles/variables" as *;
+
+.howToUse {
+  display: flex;
+  justify-content: space-between;
+  background-color: $light-grey;
+  color: $font-color;
+  height: 38rem;
+
+  video {
+    margin: 1rem;
+  }
+
+  .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 75%;
+    padding: 2rem 0 2rem;
+  }
+
+  h2 {
+    margin-top: 0;
+  }
+
+  ul {
+    list-style-type: none;
+    padding: 0 0 0 4rem;
+
+    li {
+      background-color: white;
+      padding: 0.75rem;
+      --base-indent: 4rem;
+      margin-left: calc(var(--base-indent) * (var(--index, 0)) - 2rem);
+      margin-bottom: 0.5rem;
+      border-radius: 0.5rem 0 0 0.5rem;
+
+      h3,
+      p {
+        margin: 0;
+      }
+    }
+  }
+}
+
+@media (max-width: $breakpoint-tablet) {
+  .howToUse {
+    flex-direction: column-reverse;
+    justify-content: start;
+    height: 95rem;
+
+    .content {
+      width: 100%;
+      padding: 0;
+      margin-bottom: 1rem;
+
+      h2 {
+        margin: 1rem;
+      }
+
+      p {
+        margin: 1rem;
+        margin-bottom: 0;
+      }
+    }
+
+    ul {
+      width: 97.5%;
+      margin: 2rem 0.5rem 0;
+      padding-left: 0rem;
+  
+      li {
+        padding: 0.75rem 0 0.75rem 0.75rem;
+        margin-left: 0;
+      }
+    }
+  }
+}

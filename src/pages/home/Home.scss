@@ -1,0 +1,16 @@
+@use "../../styles/variables" as *;
+
+.homepage {
+  background-color: $dark-olive;
+  color: $font-color;
+
+  .prices {
+    display: flex;
+  }
+}
+
+@media (max-width: $breakpoint-tablet) {
+  .homepage {
+    //
+  }
+}

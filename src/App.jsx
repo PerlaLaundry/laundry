@@ -1,35 +1,24 @@
-import { useEffect } from "react";
-import { useTranslation } from "react-i18next";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 
-import machine from "./assets/machine.png";
-import brand from "./assets/brand.svg";
-import favico from "../favico.png";
-import i18n from "./utils/i18n";
+import Layout from "./components/Layout/Layout";
+import Home from "./pages/home/Home";
+import Instructions from "./pages/Instructions";
+import Rules from "./pages/Rules";
+import FAQ from "./pages/FAQ";
 
 const App = () => {
-  const { t } = useTranslation();
-
-  // Dev code to test the language switcher extention
-  useEffect(() => {
-    if (import.meta.env.VITE_API_ENV === "development") {
-      const lang = localStorage.getItem("LOCALE_SWITCHER_LANGUAGE");
-
-      i18n.changeLanguage(lang);
-    }
-    // eslint-disable-next-line
-  }, [localStorage]);
-
   return (
-    <div className="homepage">
-      <div className="brand">
-        <img src={brand} />
-      </div>
-      <div className="logo">
-        <img className="machine" src={machine} alt="Machine" />
-        <img className="favico rotating" src={favico} alt="Machine" />
-      </div>
-      <h1>{t("openingSoon")}</h1>
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Layout />}>
+          <Route index element={<Home />} />
+          <Route path="gyakran-ismetelt-kerdesek" element={<FAQ />} />
+          <Route path="utmutato" element={<Instructions />} />
+          <Route path="szabalyzat" element={<Rules />} />
+          <Route path="*" element={<Home />} />
+        </Route>
+      </Routes>
+    </BrowserRouter>
   );
 };
 

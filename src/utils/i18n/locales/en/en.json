@@ -1,3 +1,228 @@
 {
-    "openingSoon": "Opening soon"
+    "navigation": {
+        "services": "Services",
+        "howToUse": "Know how",
+        "aboutUs": "About us",
+        "location": "Location"
+    },
+    "introduction": {
+        "welcome": "Welcome to Perla",
+        "description": "Self-served, easy washing or drying, up to 40 minutes.",
+        "video": "Without reservation - come whenever you like!"
+    },
+    "services": {
+        "title": "Available services",
+        "description1": "Modern machines, fast washing and drying in one place.",
+        "description2": "Our washing and drying machines are available in two versions.",
+        "prices": "Prices are uniform for both washing and drying.",
+        "10kg": "10 kg capacity - 2,000 HUF",
+        "14kg": "14 kg capacity - 2,300 HUF",
+        "washer": "Washers",
+        "dryer": "Dryers",
+        "capacity": "Capacity",
+        "moreInformation": "More information",
+        "clickHere": "Manufacturer page"
+    },
+    "howToUse": {
+        "title": "How to use our machines",
+        "description": " Our washing machines automatically dispense detergent and softener, so all you have to do is follow these easy steps:",
+        "steps": {
+            "1": {
+                "title": "Step 1",
+                "description": "Choose the correct machine and put your clothes in the machine."
+            },
+            "2": {
+                "title": "Step 2",
+                "description": "Select a program."
+            },
+            "3": {
+                "title": "Step 3",
+                "description": "Pay with cash or card."
+            },
+            "4": {
+                "title": "Step 4",
+                "description": "Start the washing (starting from 35 minutes)."
+            },
+            "5": {
+                "title": "Step 5",
+                "description": "If needed, transfer to the dryer and start from step one (approximately 40 minutes)."
+            }
+        }
+    },
+    "aboutUs": {
+        "title": "About us",
+        "description": "We are a self-service laundry where you don't need to book an appointment! We warmly welcome you to our small, family-run laundry in the heart of the city center. Bring your laundry and the washing can begin! We hope you will like this little place that we have created with love and care. Thank you for your trust!",
+        "membership": "Perla Card",
+        "membershipDescription": "Membership cards will be available soon. Inquire about the details on-site or through our contact information."
+    },
+    "location": {
+        "title": "You can find us here",
+        "contact": "Contact",
+        "address": "Address",
+        "description": "Pécs, Rákóczi út 3, 7621",
+        "openingHours": "Opening hours",
+        "days": {
+            "monday": {
+                "text": "Monday",
+                "open": "6:00 AM - 10:00 PM"
+            },
+            "tuesday": {
+                "text": "Tuesday",
+                "open": "6:00 AM - 10:00 PM"
+            },
+            "wednesday": {
+                "text": "Wednesday",
+                "open": "6:00 AM - 10:00 PM"
+            },
+            "thursday": {
+                "text": "Thursday",
+                "open": "6:00 AM - 10:00 PM"
+            },
+            "friday": {
+                "text": "Friday",
+                "open": "6:00 AM - 10:00 PM"
+            },
+            "saturday": {
+                "text": "Saturday",
+                "open": "6:00 AM - 10:00 PM"
+            },
+            "sunday": {
+                "text": "Sunday",
+                "open": "6:00 AM - 10:00 PM"
+            }
+        }
+    },
+    "faq": {
+        "title": "Frequently asked questions",
+        "questions": {
+            "1": {
+                "question": "Where can I find Perla Laundry?",
+                "answer": "The laundry is located on the ground floor of Porta Pátria, easily accessible for local residents."
+            },
+            "2": {
+                "question": "Is there parking lot available nearby?",
+                "answer": "Yes, there is a large paid parking lot available right next to the laundry."
+            },
+            "3": {
+                "question": "What are the opening hours?",
+                "answer": "Every day from 6:00 AM to 10:00 PM. Machines can be started until 9:00 PM at the latest."
+            },
+            "4": {
+                "question": "How does the laundry work?",
+                "answer": "Perla Laundry operates in a self-service system. The machines can be started through a touchscreen payment interface, no registration or app is needed."
+            },
+            "5": {
+                "question": "How long does each cycle take and what temperature does it use?",
+                "answer": "It depends on the temperature of the cycle. Washing in cold water takes up 35 minutes, 40 °C 39 minutes, 60 °C 43 minutes, 75 °C 58 minutes and 90 °C takes 73 minutes. There are two drying cycles, 40 and 50 minutes."
+            },
+            "6": {
+                "question": "How much does a washing or drying cost?",
+                "answer": "For 10 kg capacity machines, the cost is 2,000 HUF, and for 14 kg capacity machines, it is 2,300 HUF for both washing and drying."
+            },
+            "7": {
+                "question": "Do I need to bring my own detergent?",
+                "answer": "No, you don't need to. The machines automatically dispense premium quality detergent, so you don't have to worry about that."
+            },
+            "8": {
+                "question": "What machines are available?",
+                "answer": "There are 2 washing machines with 10 kg capacity, 1 washing machine with 14 kg capacity, 2 dryers with 10 kg capacity, and 1 dryer with 14 kg capacity available."
+               },
+            "9": {
+                "question": "What payment options are available?",
+                "answer": "The payment interface supports both card or cash payments."
+            },
+            "10": {
+                "question": "Is there a staff on-site?",
+                "answer": "Perla Laundry is self-service, and there is no staff on-site. For questions or issues, a phone customer service is available."
+            }
+        }
+    },
+    "instructions": {
+        "description": "Check which machine is free",
+        "steps": {
+            "1": {
+                "text": "Place the laundry/drying clothes into the machine, then carefully close the door."
+            },
+            "2": {
+                "text": "The washing machine automatically dispenses detergent and softener."
+            },
+            "3": {
+                "text": "Never overload the machine - fill it only up to two-thirds of the drum at most. Overloading reduces washing efficiency and may damage the machine."
+            },
+            "4": {
+                "text": "If paying with cash:",
+                "children": {
+                    "1": {
+                        "text": "Select the machine you want to use (washer: 1, 2, 3 - dryer: 1, 2, 3)"
+                    },
+                    "2": {
+                        "text": "Choose the cash payment option"
+                    },
+                    "3": {
+                        "text": "Insert the correct amount in coins or banknotes. The machine does not give back change for banknotes!"
+                    }
+                }
+            },
+            "5": {
+                "text": "If paying by card",
+                "children": {
+                    "1": {
+                        "text": "Select the machine you want to use (washer: 1, 2, 3 - dryer: 1, 2, 3)"
+                    },
+                    "2": {
+                        "text": "Choose card payment"
+                    },
+                    "3": {
+                        "text": "Tap or swipe your card"
+                    }
+                }
+            },
+            "6": {
+                "text": "On the washing/drying machine, select the appropriate program and press the START button."
+            }
+        },
+        "footer": "You now have at least 35 minutes - grab a nice coffee or have something to eat at the bistro on the first floor.",
+        "emegency": "In case of emergency, call +36 20 263 7000"
+    },
+    "terms": {
+        "title": "Terms",
+        "rules": {
+            "tips": {
+                "text": "Usage Tips",
+                "1": "When you finish washing, please leave the washing machine door open!",
+                "2": "Before loading, always check that the drum is completely empty.",
+                "3": "Carefully inspect the clothes to ensure there are no foreign objects (e.g. stones, coins, keys).",
+                "4": "Always follow the care instructions found on the garment labels.",
+                "5": "Please avoid pressing buttons unnecessarily, and do not add detergent after the cycle has started.",
+                "6": "Shake out clothes before loading to help remove dust and dirt.",
+                "7": "Once the cycle has completed, remove the clothes promptly",
+                "8": "Do not overload the machine - make sure the clothes have enough space to move freely."
+            },
+            "use": {
+                "text": "Perla laundry - Terms of use",
+                "1": "Carefully check laundry items, empty all pockets, close zippers, fasten all clips!",
+                "2": "Only wash regular clothing and other general household textiles (e.g., towels, bedsheets, etc.) - see prohibited items below!",
+                "3": "Do not put any metal objects, rigid plastic, or waterproofed items (e.g., tents, tarpaulins) into the machine.",
+                "4": "Do not insert rubber, sponge-like material, painted fabrics, or items treated with solvent or petrol-based thinner!",
+                "5": "Do not put clothes contaminated with flammable, combustible, or explosive substances into the machine!",
+                "6": "The laundry is not a playground. Do not allow children to climb into or play with it.",
+                "7": "Once the cycle has started, do not press any buttons or attempt to open the door until the cycle ends.",
+                "8": "The washing cycle cannot be stopped once started."
+            },
+            "notice": {
+                "text": "Important notice",
+                "1": "Do not place carpets, rubber-backed textiles, items covered in pet hair, or filled textiles with damaged covers (e.g., blankets, pillows, jackets) into the machines!",
+                "2": "For effective washing and drying, DO NOT overload the machines - fill only up to the top third of the drum"
+            },
+            "footer1": "Kind regards,",
+            "footer2": "Perla Laundry Team"
+        }
+    },
+    "footer": {
+        "support": "Support",
+        "faq": "FAQ",
+        "terms": "Laundry rules",
+        "instructions": "User instructions",
+        "contact": "Get in touch"
+    }
 }

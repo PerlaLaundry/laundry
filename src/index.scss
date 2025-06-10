@@ -1,4 +1,5 @@
 @use "App";
+@use "./styles/variables" as *;
 
 :root {
   font-family: $font-stack;
@@ -17,18 +18,15 @@
 
 body {
   margin: 0;
-  width: 100vw;
-  height: 100vh;
+  width: 100%;
+  height: 100%;
 }
 
-button {
-  border-radius: 8px;
-  border: 1px solid transparent;
-  padding: 0.6em 1.2em;
-  font-size: 1em;
-  font-weight: 500;
-  font-family: inherit;
-  background-color: #1a1a1a;
-  cursor: pointer;
-  transition: border-color 0.25s;
+h2 {
+  font-size: 2.25rem;
+  margin: 2rem 0;
+}
+
+p {
+  font-size: 1rem;
 }
