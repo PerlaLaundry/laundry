@@ -1,6 +1,7 @@
 import { useTranslation } from "react-i18next";
 
-import aboutUs from "../../assets/aboutUs.png";
+import cardBack from "../../assets/card_back.png";
+import cardFront from "../../assets/card_front.png";
 
 const AboutUs = () => {
   const { t } = useTranslation();
@@ -13,11 +14,40 @@ const AboutUs = () => {
           <p>{t("aboutUs.description")}</p>
         </div>
         <div>
-          <h3>{t("aboutUs.membership")}</h3>
-          <p>{t("aboutUs.membershipDescription")}</p>
+          <div className="membership-bonuses">
+            <h3>{t("aboutUs.membershipBenefits.title")}</h3>
+            <p>{t("aboutUs.membershipBenefits.uploadBonuses")}</p>
+          </div>
+          <ul className="membership-bonus-list">
+            <li>
+              {t("aboutUs.membershipBenefits.bonuses.20000")}
+              <small>{t("aboutUs.membershipBenefits.totals.20000")}</small>
+            </li>
+            <li>
+              {t("aboutUs.membershipBenefits.bonuses.30000")}
+              <small>{t("aboutUs.membershipBenefits.totals.30000")}</small>
+            </li>
+            <li>
+              {t("aboutUs.membershipBenefits.bonuses.50000")}
+              <small>{t("aboutUs.membershipBenefits.totals.50000")}</small>
+            </li>
+          </ul>
         </div>
       </div>
-      <img src={aboutUs} alt="Live picture about laundry" />
+      <div className="membership-card" aria-label="Perla NFC card">
+        <div className="membership-card-inner">
+          <img
+            className="membership-card-face membership-card-front"
+            src={cardFront}
+            alt="Perla NFC card front"
+          />
+          <img
+            className="membership-card-face membership-card-back"
+            src={cardBack}
+            alt="Perla NFC card back"
+          />
+        </div>
+      </div>
     </section>
   );
 };

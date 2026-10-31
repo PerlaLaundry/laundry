@@ -16,7 +16,7 @@
         "description2": "Our washing and drying machines are available in two versions.",
         "prices": "Prices are uniform for both washing and drying.",
         "10kg": "10 kg capacity - 2,000 HUF",
-        "14kg": "14 kg capacity - 2,300 HUF",
+        "14kg": "14 kg capacity - 2,500 HUF",
         "washer": "Washers",
         "dryer": "Dryers",
         "capacity": "Capacity",
@@ -52,8 +52,22 @@
     "aboutUs": {
         "title": "About us",
         "description": "We are a self-service laundry where you don't need to book an appointment! We warmly welcome you to our small, family-run laundry in the heart of the city center. Bring your laundry and the washing can begin! We hope you will like this little place that we have created with love and care. Thank you for your trust!",
-        "membership": "Perla Card",
-        "membershipDescription": "Membership cards will be available soon. Inquire about the details on-site or through our contact information."
+        "membership": "Perla NFC Card",
+        "membershipDescription": "Here is the Perla NFC card! The Perla NFC card is now available, allowing you to do your laundry at a discounted price.",
+        "membershipBenefits": {
+            "title": "💳 Even better with an NFC card!",
+            "uploadBonuses": "Top-up bonuses:",
+            "bonuses": {
+                "20000": "20,000 HUF ➡️ +2,000 HUF bonus",
+                "30000": "30,000 HUF ➡️ +4,000 HUF bonus",
+                "50000": "50,000 HUF ➡️ +8,000 HUF bonus"
+            },
+            "totals": {
+                "20000": "(22,000 HUF)",
+                "30000": "(34,000 HUF)",
+                "50000": "(58,000 HUF)"
+            }
+        }
     },
     "location": {
         "title": "You can find us here",
