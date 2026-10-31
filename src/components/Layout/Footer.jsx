@@ -1,6 +1,10 @@
 import { useTranslation } from "react-i18next";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faFacebook, faInstagram } from "@fortawesome/free-brands-svg-icons";
+import {
+  faFacebook,
+  faInstagram,
+  faTiktok,
+} from "@fortawesome/free-brands-svg-icons";
 
 import Brand from "../../assets/brand.svg?react";
 import FootNavigation from "../common/FootNavigation/FootNavigation";
@@ -51,6 +55,13 @@ const Footer = () => {
             rel="noopener noreferrer"
           >
             <FontAwesomeIcon icon={faInstagram} />
+          </a>
+          <a
+            href="https://www.tiktok.com/@perla.laundry"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <FontAwesomeIcon icon={faTiktok} />
           </a>
         </div>
       </div>

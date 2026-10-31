@@ -16,7 +16,7 @@
         "description2": "Mosó- és szárítógépeink két változatban érhetők el.",
         "prices": "Áraink programtól függetlenül egységesek.",
         "10kg": "10 kg-os gépeink - 2.000 Ft",
-        "14kg": "14 kg-os gépeink - 2.300 Ft",
+        "14kg": "14 kg-os gépeink - 2.500 Ft",
         "washer": "Mosógépek",
         "dryer": "Szárítógépek",
         "capacity": "Űrtartalom",
@@ -52,8 +52,22 @@
     "aboutUs": {
         "title": "Rólunk",
         "description": "Önkiszolgáló mosoda vagyunk, ahol nem kell időpontot foglalni! Várjuk szeretettel kis, családias mosodánkban a belváros szívében. Hozza a szennyest és indulhat a mosás! Reméljük, hogy elnyeri a tetszését ez a kis hely, amit szívvel-lélekkel alkottunk meg. Köszönjük a bizalmat!",
-        "membership": "Perla kártya",
-        "membershipDescription": "Hamarosan elérhetőek lesznek több alkalmas bérleteink. Érdeklődj a részletekről a helyszínen vagy az elérhetőségeinken."
+        "membership": "Perla NFC kártya",
+        "membershipDescription": "Megjelent a Perla NFC kártyája, amivel kedvezményesen moshatsz",
+        "membershipBenefits": {
+            "title": "💳 NFC kártyával még kedvezőbb!",
+            "uploadBonuses": "Feltöltési bónuszok:",
+            "bonuses": {
+                "20000": "20.000 Ft ➡️ +2.000 Ft ajándék",
+                "30000": "30.000 Ft ➡️ +4.000 Ft ajándék",
+                "50000": "50.000 Ft ➡️ +8.000 Ft ajándék"
+            },
+            "totals": {
+                "20000": "(22.000 Ft)",
+                "30000": "(34.000 Ft)",
+                "50000": "(58.000 Ft)"
+            }
+        }
     },
     "location": {
         "title": "Itt találsz minket",

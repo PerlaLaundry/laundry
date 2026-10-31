@@ -34,11 +34,73 @@ $height: 32rem;
       color: $font-color-inverted;
       font-size: 1.5rem;
     }
+
+    .membership-bonus-list {
+      margin: 1rem 0 0;
+      padding: 0;
+      list-style: none;
+      color: $light-grey;
+
+      li {
+        margin-bottom: 0.5rem;
+      }
+
+      small {
+        margin-left: 0.25rem;
+        font-size: 0.85em;
+      }
+    }
+
+    .membership-bonuses {
+      h4 {
+        margin: 0.5rem 0;
+        color: $font-color-inverted;
+      }
+
+      p {
+        margin-bottom: 0.25rem;
+      }
+    }
   }
 
-  img {
+  .membership-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     height: $height;
     width: 42%;
+    perspective: 1000px;
+  }
+
+  .membership-card-inner {
+    position: relative;
+    width: 80%;
+    aspect-ratio: 1.586;
+    transform-style: preserve-3d;
+    animation: membership-card-spin 16s linear infinite;
+  }
+
+  .membership-card-face {
+    position: absolute;
+    inset: 0;
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+    backface-visibility: hidden;
+  }
+
+  .membership-card-back {
+    transform: rotateY(180deg);
+  }
+
+  @keyframes membership-card-spin {
+    from {
+      transform: rotateY(0deg);
+    }
+
+    to {
+      transform: rotateY(360deg);
+    }
   }
 }
 
@@ -47,7 +109,7 @@ $height: 32rem;
     flex-direction: column;
     height: 60rem;
 
-    img {
+    .membership-card {
       height: 20rem;
       width: 100%;
     }
@@ -61,6 +123,16 @@ $height: 32rem;
       p {
         margin: 1rem;
         margin-bottom: 2rem;
+      }
+
+      .membership-bonus-list {
+        margin: 1rem 1rem 0;
+        text-align: center;
+
+        small {
+          display: block;
+          margin-left: 0;
+        }
       }
     }
   }

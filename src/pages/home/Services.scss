@@ -104,7 +104,8 @@
 
 @media (max-width: $breakpoint-tablet) {
   .services {
-    height: 75rem;
+    height: auto;
+    min-height: 75rem;
     align-items: start;
 
     .tiles {
